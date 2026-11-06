@@ -1,0 +1,3376 @@
+[
+  {
+    "id": "term-3gpp",
+    "anchor": "term-3gpp",
+    "term": "3GPP",
+    "aliases": [],
+    "html": "The 3GPP (3rd Generation Partnership Project) is a collaboration agreement that was established in December 1998. It's a co-operation between ETSI (Europe), ARIB/TTC (Japan), CCSA (China), ATIS (North America) and TTA (South Korea).",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-4gl",
+    "anchor": "term-4gl",
+    "term": "4GL",
+    "aliases": [],
+    "html": "4GL (Fourth-generation programming language) is a programming language designed with a specific purpose in mind, such as the development of commercial business software. Such languages arose after the introduction of modern, block-structured third-generation programming languages, which improved the process of software development.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-802-1q",
+    "anchor": "term-802-1q",
+    "term": "802.1Q",
+    "aliases": [],
+    "html": "IEEE 802.1q was a project in the IEEE 802 standards process to develop a mechanism to allow multiple bridged networks to transparently share the same physical network link without leakage of information between networks. IEEE 802.1q is also the name of the standard issued by this process, and in common usage the name of the encapsulation protocol used to implement this mechanism over Ethernet networks.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-access-request",
+    "anchor": "term-access-request",
+    "term": "Access-Request",
+    "aliases": [],
+    "html": "Access-Request packets are sent to a RADIUS server, and convey information used to determine whether a user is allowed access to a specific NAS, and any special services requested for that user. An implementation wishing to authenticate a user MUST transmit a RADIUS packet with the Code field set to 1 (Access-Request).\n<br />\n<br />Upon receipt of an Access-Request from a valid client, an appropriate reply MUST be transmitted.\n<br />\n<br />An Access-Request SHOULD contain a User-Name attribute. An Access-Request MUST contain either a User-Password or a CHAP-Password or a State. An Access-Request SHOULD contain a NAS-Port or NAS-Port-Type attribute or both unless the type of access being requested does not involve a port or the NAS does not distinguish among its ports.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-adjacency",
+    "anchor": "term-adjacency",
+    "term": "Adjacency",
+    "aliases": [],
+    "html": "Adjacency is a relationship formed between selected neighboring routers for the purpose of exchanging routing information. Not every pair of neighboring routers become adjacent.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-aep",
+    "anchor": "term-aep",
+    "term": "AEP",
+    "aliases": [],
+    "html": "The AppleTalk Echo Protocol (AEP) allows a node to send data to any other node on an AppleTalk internet and receive an echoed copy of that data in return. The AppleTalk Echo Protocol (AEP) provides an echo service to AppleTalk hosts. It can specify up to 585 bytes of data for an echo transaction.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-agent",
+    "anchor": "term-agent",
+    "term": "Agent",
+    "aliases": [],
+    "html": "Agent is a program that performs some information gathering or processing task in the background. Typically, an agent is given a very small and well-defined task.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-ah",
+    "anchor": "term-ah",
+    "term": "AH",
+    "aliases": [],
+    "html": "The IP Authentication Header (AH) seeks to provide security by adding authentication information to an IP datagram. This authentication information is calculated using all of the fields in the IP datagram (including not only the IP Header but also other headers and the user data) which do not change in transit. Fields or options which need to change in transit (e.g., hop count, time to live, ident, fragment offset, or routing pointer, such as audio and video. Sources of data can include both live data feeds and stored clips.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-aim",
+    "anchor": "term-aim",
+    "term": "AIM",
+    "aliases": [],
+    "html": "Some important understanding about the AIM (AOL Instant Messenger) protocol has been achieved, and writing of a clone has been started. More information about the AIM Protocol and the FAIM clone can be found at Adam Fritzler's web pages.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-algorithm",
+    "anchor": "term-algorithm",
+    "term": "Algorithm",
+    "aliases": [],
+    "html": "Algorithm is a formula or set of steps for solving a particular problem. To be an algorithm, a set of rules must be unambiguous and have a clear stopping point. Algorithms can be expressed in any language, from natural languages like English or French to programming languages like FORTRAN.\n<br />\n<br />We use algorithms every day. For example, a recipe for baking a cake is an algorithm. Most programs, with the exception of some artificial intelligence applications, consist of algorithms. Inventing elegant algorithms -- algorithms that are simple and require the fewest steps possible -- is one of the principal challenges in programming.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-america-online",
+    "anchor": "term-america-online",
+    "term": "America Online",
+    "aliases": [],
+    "html": "America Online, or AOL for short, is a U.S.-based online service provider, Internet service provider, and media company. Based in Dulles, Virginia, a community in Loudoun County, Virginia, with regional headquarters installations in many cities around the world, it is by far the most successful proprietary online service, with more than 32 million subscribers at one point in the US, Canada, Germany, France, the United Kingdom, Latin America (declared bankrupt in 2004), and Japan. In early 2005, AOL Hong Kong stopped its service.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-anti-replay",
+    "anchor": "term-anti-replay",
+    "term": "Anti-replay",
+    "aliases": [],
+    "html": "The anti-replay protocol is part of the Internet Engineering Task Force (IETF) Internet Protocol Security (IPsec) standard. Anti-replay ensures IP packet-level security by making it impossible for a hacker to intercept message packets and insert changed packets into the data stream between a source computer and a destination computer. By detecting packets that match the sequence numbers of those that have already arrived, the anti-replay mechanism helps to ensure that invalid packets are discarded. Both of the main protocols in the IPSec standard, the Encapsulating Security Payload (ESP) and the Authentication Header (AH), use anti-replay protection.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-ao",
+    "anchor": "term-ao",
+    "term": "AO",
+    "aliases": [],
+    "html": "Abort Output (AO). Many systems provide a function which allows a process, which is generating output, to run to completion (or to reach the same stopping point it would reach if running to completion) but without sending the output to the user's terminal. Further, this function typically clears any output already produced but not yet actually printed (or displayed) on the user's terminal.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-application-layer",
+    "anchor": "term-application-layer",
+    "term": "Application layer",
+    "aliases": [],
+    "html": "In the Open Systems Interconnection (OSI) communications model, the Application layer provides services for an application program to ensure that effective communication with another application program in a network is possible.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-arcnet",
+    "anchor": "term-arcnet",
+    "term": "ARCnet",
+    "aliases": [],
+    "html": "ARCnet (Attached Resource Computer network) is a widely-installed local area network (LAN) technology that uses a token-bus scheme for managing line sharing among the workstations and other devices connected on the LAN. ARCnet was introduced by Datapoint Corporation in 1977. It uses a token-ring architecture, supports data rates of 2.5 Mbps, and connects up to 255 computers. A special advantage of ARCnet is that it permits various types of transmission media -- twisted-pair wire, coaxial cable, and fiber optic cable -- to be mixed on the same network. \n<br />\n<br />A new specification, called ARCnet Plus, will support data rates of 20 Mbps.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-as",
+    "anchor": "term-as",
+    "term": "AS",
+    "aliases": [],
+    "html": "AS (Autonomous system) is the unit of router policy, either a single network or a group of networks that is controlled by a common network administrator (or group of administrators) on behalf of a single administrative entity.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-atm",
+    "anchor": "term-atm",
+    "term": "ATM",
+    "aliases": [],
+    "html": "Asynchronous Transfer Mode (ATM) is a network technology based on transferring data in cells or packets of a fixed size. The cell used with ATM is relatively small compared to units used with older technologies. The small, constant cell size allows ATM equipment to transmit video, audio, and computer data over the same network, and assure that no single type of data hogs the line.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-authentication",
+    "anchor": "term-authentication",
+    "term": "Authentication",
+    "aliases": [],
+    "html": "The process of identifying an individual, usually based on a username and password. In security systems, authentication is distinct from authorization , which is the process of giving individuals access to system objects based on their identity. Authentication merely ensures that the individual is who he or she claims to be, but says nothing about the access rights of the individual.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-back-link",
+    "anchor": "term-back-link",
+    "term": "Back link",
+    "aliases": [],
+    "html": "A link in one direction implied from the existence of an explicit limk in the other direction.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-bgp",
+    "anchor": "term-bgp",
+    "term": "BGP",
+    "aliases": [],
+    "html": "Border Gateway Protocol (BGP) is an exterior gateway routing protocol that enables groups of routers (called autonomous systems) to share routing information so that efficient, loop-free routes can be established. BGP is commonly used within and between Internet Service Providers (ISPs).",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-binding",
+    "anchor": "term-binding",
+    "term": "Binding",
+    "aliases": [],
+    "html": "A collection of configuration parameters, including at least an IP address, associated with a DHCP client. Bindings are managed by DHCP servers.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-bootp",
+    "anchor": "term-bootp",
+    "term": "BOOTP",
+    "aliases": [],
+    "html": "Bootstrap Protocol (BOOTP) is an Internet protocol that enables a diskless workstation to discover its own IP address, the IP address of a BOOTP server on the network, and a file to be loaded into memory to boot the machine. This enables the workstation to boot without requiring a hard or floppy disk drive.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-broadcast",
+    "anchor": "term-broadcast",
+    "term": "Broadcast",
+    "aliases": [],
+    "html": "Broadcast is the term used to describe communication where a piece of information is sent from one point to all other points. Broadcasting is a useful feature in e-mail systems. It is also supported by some fax systems. \n<br />\n<br />In networking, a distinction is made between broadcasting and multicasting. Broadcasting sends a message to everyone on the network whereas multicasting sends a message to a select list of recipients.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-bsd",
+    "anchor": "term-bsd",
+    "term": "BSD",
+    "aliases": [],
+    "html": "BSD (Berkeley Software Distribution) is the Unix derivative distributed by the University of California, Berkeley starting in the 1970s. The name is also used collectively for the modern descendants of these distributions.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-bundling",
+    "anchor": "term-bundling",
+    "term": "Bundling",
+    "aliases": [],
+    "html": "Bundling is an optional multiplexing operation, whereby more than one user message may be carried in the same SCTP packet. Each user message occupies its own DATA chunk.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-byte",
+    "anchor": "term-byte",
+    "term": "Byte",
+    "aliases": [],
+    "html": "Byte (binary term) is a unit of storage capable of holding a single character. On almost all modern computers, a byte is equal to 8 bits. Large amounts of memory are indicated in terms of kilobytes (1,024 bytes), megabytes (1,048,576 bytes), and gigabytes (1,073,741,824 bytes).",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-call",
+    "anchor": "term-call",
+    "term": "Call",
+    "aliases": [],
+    "html": "A connection or attempted connection between two terminal endpoints on a PSTN or ISDN - for example, a telephone call between two modems.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-cd",
+    "anchor": "term-cd",
+    "term": "CD",
+    "aliases": [],
+    "html": "CD (Collision Domain) is agroup of Ethernet or Fast Ethernet devices in a CSMA/CD LAN that are connected by repeaters and compete for access on the network. Only one device in the collision domain may transmit at any one time, and the other devices in the domain listen to the network in order to avoid data collisions. \n<br />\n<br />A collision domain is sometimes referred to as an Ethernet segment.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-certificate-authority",
+    "anchor": "term-certificate-authority",
+    "term": "Certificate authority",
+    "aliases": [],
+    "html": "In cryptography, a certificate authority or certification authority (CA) is an entity which issues digital certificates for use by other parties. It is an example of a trusted third party. CA's are characteristic of many public key infrastructure (PKI) schemes.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-chap",
+    "anchor": "term-chap",
+    "term": "CHAP",
+    "aliases": [],
+    "html": "CHAP (Challenge-Handshake Authentication Protocol) is an authentication protocol used for remote logon, usually between a client and server or Web browser and Web server. Both the sender and peer share a predefined secret. The peer concatenates the random value (or nonce), the ID and the secret and calculates a one-way hash using MD5. The hash value is sent to the authenticator, which in turn builds that same string on its side, calculates the MD5 sum itself and compares the result with the value received from the peer. If the values match, the peer is authenticated. \n<br />\n<br />By transmitting only the hash, the secret can't be reverse-engineered. The ID value is increased with each CHAP dialogue to protect against replay attacks.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-cidr",
+    "anchor": "term-cidr",
+    "term": "CIDR",
+    "aliases": [],
+    "html": "CIDR (Classless Inter-Domain Routing) is a new addressing scheme for the Internet which allows for more efficient allocation of IP addresses than the old Class A, B, and C address scheme. A CIDR IP address looks like a normal IP address except that it ends with a slash followed by a number, called the IP network prefix. ",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-clnp",
+    "anchor": "term-clnp",
+    "term": "CLNP",
+    "aliases": [],
+    "html": "CLNP (Connectionless Network Protocol) is a datagram network protocol. It provides fundamentally the same underlying service to a transport layer as IP. CLNP provides essentially the same maximum datagram size, and for those circumstances where datagrams may need to traverse a network whose maximum packet size is smaller than the size of the datagram, CLNP provides mechanisms for fragmentation (data unit identification, fragment/total length and offset). Like IP, a checksum computed on the CLNP header provides a verification that the information used in processing the CLNP datagram has been transmitted correctly, and a lifetime control mechanism (\"Time to Live\") imposes a limit on the amount of time a datagram is allowed to remain in the internet system. As is the case in IP, a set of options provides control functions needed or useful in some situations but unnecessary for the most common communications.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-cms",
+    "anchor": "term-cms",
+    "term": "CMS",
+    "aliases": [],
+    "html": "The Cryptographic Message Syntax describes an encapsulation syntax for data protection. It supports digital signatures, message authentication codes, and encryption. The syntax allows multiple encapsulation, so one encapsulation envelope can be nested inside another.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-cname",
+    "anchor": "term-cname",
+    "term": "CNAME",
+    "aliases": [],
+    "html": "CNAME (Canonical Name Record ) is a record in a DNS database that indicates the true, or canonical, host name of a computer that its aliases are associated with. A computer hosting a Web site must have an IP address in order to be connected to the World Wide Web. The DNS resolves the computer domain name to its IP address, but sometimes more than one domain name resolves to the same IP address, and this is where the CNAME is useful. A machine can have an unlimited number of CNAME aliases, but a separate CNAME record must be in the database for each alias.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-congestion",
+    "anchor": "term-congestion",
+    "term": "Congestion",
+    "aliases": [],
+    "html": "Congestion is a signaling technique used by data transmission systems in order to indicate the status of network congestion. Devices that are communicating data across a network rely on congestion notification to determine when to send or delay the transmission of data packets. \n<br />\n<br />Forward congestion notification indicates to upstream data switching devices that data is being transmitted through congested channels and some of the data or packets may be discarded. Backward congestion notification indicates to downstream devices that data is going through congested channels.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-cpu",
+    "anchor": "term-cpu",
+    "term": "CPU",
+    "aliases": [],
+    "html": "CPU (central processing unit) is the brains of the computer. Sometimes referred to simply as the processor or central processor, the CPU is where most calculations take place. In terms of computing power, the CPU is the most important element of a computer system.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-crlf",
+    "anchor": "term-crlf",
+    "term": "CRLF",
+    "aliases": [],
+    "html": "&lt;character&gt; /ker'l*f/, sometimes /kru'l*f/ or /C-R-L-F/ A carriage return (CR, ASCII 13) followed by a line feed (LF, ASCII 10).  Under Unix influence this usage has become less common because Unix uses just line feed as its line terminator.\n<br />A carriage return (CR, ASCII 0001101) followed by a line feed (LF, ASCII 0001010). More loosely, whatever it takes to get you from the end of one line of text to the beginning of the next line.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-csma",
+    "anchor": "term-csma",
+    "term": "CSMA",
+    "aliases": [],
+    "html": "CSMA (Carrier Sense Multiple Access) is a network arbitration scheme used on Ethernet. A station with a message to send starts sending if there is no carrier detected on the transmission medium. If a collision occurs, transmission is abandoned and retried after a delay. ",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-cursor",
+    "anchor": "term-cursor",
+    "term": "Cursor",
+    "aliases": [],
+    "html": "Cursor is a special symbol, usually a solid rectangle or a blinking underline character, that signifies where the next character will be displayed on the screen. To type in different areas of the screen, you need to move the cursor. You can do this with the arrow keys, or with a mouse if your program supports it. \n<br />\n<br />If you are running a graphics-based program, the cursor may appear as a small arrow, called a pointer. (The terms cursor and pointer are often used interchangeably.) In text processing, a cursor sometimes appears as an I-beam pointer, a special type of pointer that always appears between two characters. Note also that programs that support a mouse may use two cursors: a text cursor, which indicates where characters from the keyboard will be entered, and a mouse cursor for selecting items with the mouse.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-cvs",
+    "anchor": "term-cvs",
+    "term": "CVS",
+    "aliases": [],
+    "html": "CVS is the Concurrent Versions System, network-transparent program that allows developers to keep track of different development versions of source code. CVS does not maintain multiple versions of source code files but keeps a single copy and records of all of the changes that are made. When a developer wants a particular development version of a file, CVS will reconstruct that version based on its records. \n<br />\n<br />Bugs can often get into code when it is modified and may not be detected until long after the modification is made. CVS can retrieve old versions of the code, allowing the developer to see precisely which change caused the bug. CVS is also useful when more than one person is working on a specific file, where it is possible for the developers to overwrite each other's changes. CVS solves this problem by having each developer work in an individual directory and then merging the work from each after the work is complete. \n<br />\n<br />It is important to note that CVS is not a build system but rather a way to control disparate versions of code as it is developed over time. \n<br />\n<br />CVS is also called a version control system.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-daemon",
+    "anchor": "term-daemon",
+    "term": "Daemon",
+    "aliases": [],
+    "html": "Daemon is a process that runs in the background and performs a specified operation at predefined times or in response to certain events. The term daemon is a UNIX term, though many other operating systems provide support for daemons, though they're sometimes called other names. Windows, for example, refers to daemons as System Agents and services. Typical daemon processes include print spoolers, e-mail handlers, and other programs that perform administrative tasks for the operating system. The term comes from Greek mythology, where daemons were guardian spirits.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-designated-router",
+    "anchor": "term-designated-router",
+    "term": "Designated Router",
+    "aliases": [],
+    "html": "Each broadcast and NBMA network that has at least two attached routers has a Designated Router. The Designated Router generates an LSA for the network and has other special responsibilities in the running of the protocol. The Designated Router is elected by the Hello Protocol.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-dhcp",
+    "anchor": "term-dhcp",
+    "term": "DHCP",
+    "aliases": [],
+    "html": "Dynamic Host Configuration Protocol (DHCP) is a protocol for assigning dynamic IP addresses to devices on a network. With dynamic addressing, a device can have a different IP address every time it connects to the network. In some systems, the device's IP address can even change while it is still connected. DHCP also supports a mix of static and dynamic IP addresses. \n<br />\n<br />Dynamic addressing simplifies network administration because the software keeps track of IP addresses rather than requiring an administrator to manage the task. This means that a new computer can be added to a network without the hassle of manually assigning it a unique IP address. Many ISPs use dynamic IP addressing for dial-up users.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-dispersion",
+    "anchor": "term-dispersion",
+    "term": "Dispersion",
+    "aliases": [],
+    "html": "Dispersion represents the maximum error of the local clock relative to the reference clock. This is a signed fixed-point number indicating the maximum error of the peer clock relative to the local clock over the network path between them, in seconds. Only positive values greater than zero are possible.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-dll",
+    "anchor": "term-dll",
+    "term": "DLL",
+    "aliases": [],
+    "html": "DLL(Dynamic Link Library) is a library of executable functions or data that can be used by a Windows application. Typically, a DLL provides one or more particular functions and a program accesses the functions by creating either a static or dynamic link to the DLL. A static link remains constant during program execution while a dynamic link is created by the program as needed. DLLs can also contain just data. DLL files usually end with the extension .dll,.exe., drv, or .fon. \n<br />\n<br />A DLL can be used by several applications at the same time. Some DLLs are provided with the Windows operating system and available for any Windows application. Other DLLs are written for a particular application and are loaded with the application.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-dmp",
+    "anchor": "term-dmp",
+    "term": "DMP",
+    "aliases": [],
+    "html": "DMP (Diagnostic and Monitoring Protocol) is a protocol pioneered by Intelliguard and Network Appliance that defines a common architecture for the way heterogeneous file servers on a network are backed up.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-dns",
+    "anchor": "term-dns",
+    "term": "DNS",
+    "aliases": [],
+    "html": "DNS(Domain Name System or Service or Server), an Internet service that translates domain names into IP addresses. Because domain names are alphabetic, they're easier to remember. The Internet however, is really based on IP addresses. Every time you use a domain name, therefore, a DNS service must translate the name into the corresponding IP address. For example, the domain name www.example.com might translate to 198.105.232.4. \n<br />\n<br />The DNS system is, in fact, its own network. If one DNS server doesn't know how to translate a particular domain name, it asks another one, and so on, until the correct IP address is returned.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-domain",
+    "anchor": "term-domain",
+    "term": "Domain",
+    "aliases": [],
+    "html": "A group of computers and devices on a network that are administered as a unit with common rules and procedures. Within the Internet, domains are defined by the IP address. All devices sharing a common part of the IP address are said to be in the same domain.\n<br />\n<br />In database technology, domain refers to the description of an attribute's allowed values. The physical description is a set of values the attribute can have, and the semantic, or logical, description is the meaning of the attribute.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-drag-and-drop",
+    "anchor": "term-drag-and-drop",
+    "term": "Drag-and-drop",
+    "aliases": [],
+    "html": "Drag-and-drop is the action of (or support for the action of) clicking on a virtual object and dragging it to a different location or onto another virtual object. In general, it can be used to invoke many kinds of actions, or create various types of associations between two abstract objects.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-dsa",
+    "anchor": "term-dsa",
+    "term": "DSA",
+    "aliases": [],
+    "html": "DSA (Digital Signature Algorithm) Digital Signature Algorithm (DSA) is also called the Digital Signature Standard (DSS). DSA was developed by the U.S. Government, and DSA is used in conjunction with the the SHA-1 one-way hash function. DSA is fully described in FIPS 186 [FIPS 186]. The ASN.1 OIDs used to identify this signature algorithm are:\n<br />        id-dsa-with-sha1 ID  ::=  {\n<br />                iso(1) member-body(2) us(840) x9-57 (10040)\n<br />                x9cm(4) 3 }\n<br />\n<br />The DSA parameters in the subjectPublicKeyInfo field of the certificate of the issuer shall apply to the verification of the signature.\n<br />\n<br />When signing, the DSA algorithm generates two values. These values are commonly referred to as r and s. To easily transfer these two values as one signature, they shall be ASN.1 encoded using the following ASN.1 structure:\n<br />        Dss-Sig-Value  ::=  SEQUENCE  {\n<br />                r       INTEGER,\n<br />                s       INTEGER  }",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-dtp",
+    "anchor": "term-dtp",
+    "term": "DTP",
+    "aliases": [],
+    "html": "The data transfer process establishes and manages the data connection. The DTP can be passive or active.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-dynamic-allocation",
+    "anchor": "term-dynamic-allocation",
+    "term": "Dynamic allocation",
+    "aliases": [],
+    "html": "A host is allocated an IP address for a limited time period or until the host explicitly relinquishes the address.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-e-mail",
+    "anchor": "term-e-mail",
+    "term": "E-mail",
+    "aliases": [],
+    "html": "The transmission of messages over communications networks. Most mainframes, minicomputers, and computer networks have an e-mail system. Most e-mail systems include a rudimentary text editor for composing messages, but many allow you to edit your messages using any editor you want. Sent messages are stored in electronic mailboxes until the recipient fetches them. All online services and Internet Service Providers (ISPs) offer e-mail, and most also support gateways so that you can exchange mail with users of other systems. \n<br />\n<br />Although different e-mail systems use different formats, there are some emerging standards that are making it possible for users on all systems to exchange messages. To date, though, the de facto addressing standard is the one used by the Internet system because almost all e-mail systems have an Internet gateway.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-eavesdropping",
+    "anchor": "term-eavesdropping",
+    "term": "Eavesdropping",
+    "aliases": [],
+    "html": "Eavesdropping is the intercepting and reading of messages and conversations by unintended recipients. One who participates in eavesdropping, i.e. someone who secretly listens in on the conversations of others, is called an eavesdropper.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-ebcdic",
+    "anchor": "term-ebcdic",
+    "term": "EBCDIC",
+    "aliases": [],
+    "html": "EBCDIC (Extended Binary-Coded Decimal Interchange Code) is an IBM code for representing characters as numbers. Although it is widely used on large IBM computers, most other computers, including PCs and Macintoshes, use ASCII codes.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-echo-and-echo-reply",
+    "anchor": "term-echo-and-echo-reply",
+    "term": "Echo and Echo Reply",
+    "aliases": [],
+    "html": "Used to implement the PING command. When an ICMP Echo is received it is responded to with an Echo Reply message. The data received in the echo message must be returned in the echo reply message.\n<br />\n<br />The identifier and sequence number may be used by the echo sender to aid in matching the replies with the echo requests. For example, the identifier might be used like a port in TCP or UDP to identify a session, and the sequence number might be incremented on each echo request sent.  The echoer returns these same values in the echo reply.\n<br />\n<br />Code 0 may be received from a gateway or a host",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-edge-device",
+    "anchor": "term-edge-device",
+    "term": "Edge Device",
+    "aliases": [],
+    "html": "Edge device is a physical device that is capable of forwarding packets between legacy interfaces (such as Ethernet and Token Ring) and ATM interfaces based on data-link and network layer information. An edge device does not participate in the running of any network layer routing protocol.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-egp",
+    "anchor": "term-egp",
+    "term": "EGP",
+    "aliases": [],
+    "html": "EGP (Exterior Gateway Protocol) is for exchanging routing information between two neighbor gateway hosts in a network of autonomous systems. An EGP is typically used between hosts on the Internet to share routing table information. \n<br />\n<br />BGP is an example of an EGP.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-encryption",
+    "anchor": "term-encryption",
+    "term": "Encryption",
+    "aliases": [],
+    "html": "The translation of data into a secret code. Encryption is the most effective way to achieve data security. To read an encrypted file, you must have access to a secret key or password that enables you to decrypt it. Unencrypted data is called plain text; encrypted data is referred to as cipher text. \n<br />\n<br />There are two main types of encryption: asymmetric encryption (also called public-key encryption) and symmetric encryption.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-eof",
+    "anchor": "term-eof",
+    "term": "EOF",
+    "aliases": [],
+    "html": "The EOF (end-of-file) condition that defines the end of a file being transferred.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-error-recovery",
+    "anchor": "term-error-recovery",
+    "term": "Error recovery",
+    "aliases": [],
+    "html": "Error recovery is a procedure that allows a user to recover from certain errors such as failure of either host system or transfer process. In FTP, error recovery may involve restarting a file transfer at a given checkpoint.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-esmtp",
+    "anchor": "term-esmtp",
+    "term": "ESMTP",
+    "aliases": [],
+    "html": "ESMTP (Extended Simple Mail Transfer Protocol) specifies extensions to the original protocol for sending e-mail that supports graphics, audio and video files, and text in various national languages. The original Internet protocols for sending e-mail are described in Request for Comments (RFC) 822, Standard for the Format of ARPA Internet Text Messages, Simple Mail Transfer Protocol (SMTP). As users began to want to attach various kinds of files to e-mail, the need for additional capabilities arose and resulted in RFC 1869, Extended Simple Mail Transfer Protocol. \n<br />\n<br />ESMTP provides the capability for a client e-mail program to ask a server e-mail program which capabilities it supports and then communicate accordingly. Currently, most commercial e-mail servers and clients support ESMTP.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-ethernet",
+    "anchor": "term-ethernet",
+    "term": "Ethernet",
+    "aliases": [],
+    "html": "A local-area network (LAN) architecture developed by Xerox Corporation in cooperation with DEC and Intel in 1976. Ethernet uses a bus or star topology and supports data transfer rates of 10 Mbps. The Ethernet specification served as the basis for the IEEE 802.3 standard, which specifies the physical and lower software layers. Ethernet uses the CSMA/CD access method to handle simultaneous demands. It is one of the most widely implemented LAN standards. \n<br />\n<br />A newer version of Ethernet, called 100Base-T (or Fast Ethernet), supports data transfer rates of 100 Mbps. And the newest version, Gigabit Ethernet supports data rates of 1 gigabit (1,000 megabits) per second.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-eudora",
+    "anchor": "term-eudora",
+    "term": "Eudora",
+    "aliases": [],
+    "html": "Eudora is an email reading program, one of three that are supported by ACCC at UIC. (Pine for UNIX and WebMail for any Web browser are the other two.) ",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-external",
+    "anchor": "term-external",
+    "term": "External",
+    "aliases": [],
+    "html": "A link to a node in a different database.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-fddi",
+    "anchor": "term-fddi",
+    "term": "FDDI",
+    "aliases": [],
+    "html": "Fiber Distributed Data Interface, a set of ANSI protocols for sending digital data over fiber optic cable. FDDI networks are token-passing networks, and support data rates of up to 100 Mbps (100 million bits) per second. FDDI networks are typically used as backbones for wide-area networks.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-firewall",
+    "anchor": "term-firewall",
+    "term": "Firewall",
+    "aliases": [],
+    "html": "A system designed to prevent unauthorized access to or from a private network. Firewalls can be implemented in both hardware and software, or a combination of both. Firewalls are frequently used to prevent unauthorized Internet users from accessing private networks connected to the Internet, especially intranets. All messages entering or leaving the intranet pass through the firewall, which examines each message and blocks those that do not meet the specified security criteria. There are several types of firewall techniques: Packet filter, Application gateway, Circuit-level gateway and Proxy server.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-flowspec",
+    "anchor": "term-flowspec",
+    "term": "Flowspec",
+    "aliases": [],
+    "html": "Defines the QoS to be provided for a flow. The flowspec is used to set parameters in the packet scheduling function to provide the requested quality of service. A flowspec is carried in a FLOWSPEC object. The flowspec format is opaque to RSVP and is defined by the Integrated Services Working Group.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-foreign-agent",
+    "anchor": "term-foreign-agent",
+    "term": "Foreign Agent",
+    "aliases": [],
+    "html": "A router on a mobile node's visited network which provides routing services to the mobile node while registered. The foreign agent detunnels and delivers datagrams to the mobile node that were tunneled by the mobile node's home agent. For datagrams sent by a mobile node, the foreign agent may serve as a default router for registered mobile nodes.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-frame-relay",
+    "anchor": "term-frame-relay",
+    "term": "Frame Relay",
+    "aliases": [],
+    "html": "Frame Relay is a packet-switching protocol for connecting devices on a Wide Area Network (WAN). Frame Relay networks in the U.S. support data transfer rates at T-1 (1.544 Mbps) and T-3 (45 Mbps) speeds. In fact, you can think of Frame Relay as a way of utilizing existing T-1 and T-3 lines owned by a service provider. Most telephone companies now provide Frame Relay service for customers who want connections at 56 Kbps to T-1 speeds. (In Europe, Frame Relay speeds vary from 64 Kbps to 2 Mbps.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-ftp",
+    "anchor": "term-ftp",
+    "term": "FTP",
+    "aliases": [],
+    "html": "FTP (File Transfer Protocol) is the protocol for exchanging files over the Internet. FTP works in the same way as HTTP for transferring Web pages from a server to a user's browser and SMTP for transferring electronic mail across the Internet in that, like these technologies, FTP uses the Internet's TCP/IP protocols to enable data transfer. \n<br />\n<br />FTP is most commonly used to download a file from a server using the Internet or to upload a file to a server (e.g., uploading a Web page file to a server).",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-full-duplex",
+    "anchor": "term-full-duplex",
+    "term": "Full duplex",
+    "aliases": [],
+    "html": "Full duplex refers to the transmission of data in two directions simultaneously. For example, a telephone is a full-duplex device because both parties can talk at once. In contrast, a walkie-talkie is a half-duplex device because only one party can transmit at a time.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-gateway",
+    "anchor": "term-gateway",
+    "term": "Gateway",
+    "aliases": [],
+    "html": "A network device used to translate between two different protocols. Used to interconnect two networks that use incompatible protocols. It is a node on a network that serves as an entrance to another network. In enterprises, the gateway is the computer that routes the traffic from a workstation to the outside network that is serving the Web pages. In homes, the gateway is the ISP that connects the user to the internet. \n<br />\n<br />In enterprises, the gateway node often acts as a proxy server and a firewall. The gateway is also associated with both a router, which use headers and forwarding tables to determine where packets are sent, and a switch, which provides the actual path for the packet in and out of the gateway.\n<br />\n<br />It is also a computer system located on earth that switches data signals and voice signals between satellites and terrestrial networks and an earlier term for router, though now obsolete in this sense as router is commonly used.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-gdi",
+    "anchor": "term-gdi",
+    "term": "GDI",
+    "aliases": [],
+    "html": "GDI (Graphical Device Interface) is a Windows standard for representing graphical objects and transmitting them to output devices, such as monitors and printers.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-ggsn",
+    "anchor": "term-ggsn",
+    "term": "GGSN",
+    "aliases": [],
+    "html": "The GGSN (Gateway GPRS Support Node) is the node which carries out the role in GPRS equivalent to the Home Agent in Mobile IP. It is a router which detunnels user data from GPRS Tunnelling Protocol and sends out normal user data IP packets.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-gnu",
+    "anchor": "term-gnu",
+    "term": "GNU",
+    "aliases": [],
+    "html": "GNU is a UNIX-compatible software system developed by the Free Software Foundation (FSF). The philosophy behind GNU is to produce software that is non-proprietary. Anyone can download, modify and redistribute GNU software. The only restriction is that they cannot limit further redistribution. The GNU project was started in 1983 by Richard Stallman at the Massachusetts Institute of Technology.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-gopher",
+    "anchor": "term-gopher",
+    "term": "Gopher",
+    "aliases": [],
+    "html": "A system that pre-dates the World Wide Web for organizing and displaying files on Internet servers. A Gopher server presents its contents as a hierarchically structured list of files. With the ascendance of the Web, many gopher databases were converted to Web sites which can be more easily accessed via Web search engines. \n<br />\n<br />Gopher was developed at the University of Minnesota and named after the school's mascot. Two systems, Veronica and Jughead, let you search global indices of resources stored in Gopher systems.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-gprs-core-network",
+    "anchor": "term-gprs-core-network",
+    "term": "GPRS Core Network",
+    "aliases": [],
+    "html": "The GPRS system is used by GSM Mobile phones, as of 2004 the most common mobile phone system in the world, for transmitting IP packets. The GPRS Core Network is the centralised part of the GPRS system and also provides support for UMTS based 3G networks. The GPRS core network is an integrated part of the GSM core network.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-gre",
+    "anchor": "term-gre",
+    "term": "GRE",
+    "aliases": [],
+    "html": "Generic Routing Encapsulation (GRE) is an internet based term applied to the encapsulation of IP datagrams tunneled through the internet. The encapsulation includes security, typically in the form of IPSec, and is most commonly found in VPN (Virtual Private Network) implementation.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-gss-api",
+    "anchor": "term-gss-api",
+    "term": "GSS-API",
+    "aliases": [],
+    "html": "The GSS-API (Generic Security Service Application Program Interface) is a generic API for doing client-server authentication.\n<br />\n<br />A typical GSS-API caller is itself a communications protocol, calling on GSS-API in order to protect its communications with authentication, integrity, and/or confidentiality security services. A GSS-API caller accepts tokens provided to it by its local GSS-API implementation and transfers the tokens to a peer on a remote system; that peer passes the received tokens to its local GSS-API implementation for processing. The security services available through GSS-API in this fashion are implementable (and have been implemented) over a range of underlying mechanisms based on secret-key and public-key cryptographic technologies.\n<br />\n<br />The GSS-API separates the operations of initializing a security context between peers, achieving peer entity authentication (GSS_Init_sec_context() and GSS_Accept_sec_context() calls), from the operations of providing per-message data origin authentication and data integrity protection (GSS_GetMIC() and GSS_VerifyMIC() calls) for messages subsequently transferred in conjunction with that context.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-gtp",
+    "anchor": "term-gtp",
+    "term": "GTP",
+    "aliases": [],
+    "html": "GTP (GPRS Tunneling Protocol) creates a secure connection in the IP environment, by encapsulating encrypted data in an IP packet. GTP handles the flow of user packet data and signaling information between the SGSN and GGSN in a GPRS network.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-gui",
+    "anchor": "term-gui",
+    "term": "GUI",
+    "aliases": [],
+    "html": "GUI(Graphical User Interface) is a program interface that takes advantage of the computer's graphics capabilities to make the program easier to use. Well-designed graphical user interfaces can free the user from learning complex command languages. On the other hand, many users find that they work more effectively with a command-driven interface, especially if they already know the command language.\n<br /> \n<br />Graphical user interfaces, such as Microsoft Windows and the one used by the Apple Macintosh, feature the following basic components: \n<br />*pointer-- A symbol that appears on the display screen and that you move to select objects and commands. Usually, the pointer appears as a small angled arrow. Text -processing applications, however, use an I-beam pointer that is shaped like a capital I. \n<br />*pointing device-- A device, such as a mouse or trackball, that enables you to select objects on the display screen. \n<br />*icons-- Small pictures that represent commands, files, or windows. By moving the pointer to the icon and pressing a mouse button, you can execute a command or convert the icon into a window. You can also move the icons around the display screen as if they were real objects on your desk. \n<br />*desktop-- The area on the display screen where icons are grouped is often referred to as the desktop because the icons are intended to represent real objects on a real desktop. \n<br />*windows-- You can divide the screen into different areas. In each window, you can run a different program or display a different file. You can move windows around the display screen, and change their shape and size at will. \n<br />*menus-- Most graphical user interfaces let you execute commands by selecting a choice from a menu.\n<br />\n<br />In addition to their visual components, graphical user interfaces also make it easier to move data from one application to another. A true GUI includes standard formats for representing text and graphics. Because the formats are well-defined, different programs that run under a common GUI can share data. This makes it possible, for example, to copy a graph created by a spreadsheet program into a document created by a word processor.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-h-323",
+    "anchor": "term-h-323",
+    "term": "H.323",
+    "aliases": [],
+    "html": "H.323 is an umbrella recommendation from the ITU-T, that defines the protocols to provide audio-visual communication sessions on any packet network. It is currently implemented by various Internet real-time applications such as NetMeeting and GnomeMeeting. It is a part of the H.32x series of protocols which also address communications over ISDN, PSTN or SS7. H.323 is commonly used in Voice over IP (VoIP) and IP-based videoconferencing.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-half-duplex",
+    "anchor": "term-half-duplex",
+    "term": "Half-duplex",
+    "aliases": [],
+    "html": "Half-duplex refers to the transmission of data in just one direction at a time. For example, a walkie-talkie is a half-duplex device because only one party can talk at a time. In contrast, a telephone is a full-duplex device because both parties can talk simultaneously. Duplex modes often are used in reference to network data transmissions.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-hdlc",
+    "anchor": "term-hdlc",
+    "term": "HDLC",
+    "aliases": [],
+    "html": "HDLC (High-Level Data Link Control) protocol which operates at the data link layer uses the services of a physical layer, and provides either a best effort or reliable communications path between the transmitter and receiver. The HDLC protocol embeds information in a data frame that allows devices to control data flow and correct errors. HDLC is an ISO standard developed from the Synchronous Data Link Control (SDLC) standard proposed by IBM in the 1970's. \n<br />\n<br />For any HDLC communications session, one station is designated primary and the other secondary. A session can use one of the following connection modes, which determine how the primary and secondary stations interact. \n<br />    Normal unbalanced: The secondary station responds only to the primary station. \n<br />\n<br />    Asynchronous: The secondary station can initiate a message. \n<br />    Asynchronous balanced: Both stations send and receive over its part of a duplex line. This mode is used for X.25 packet-switching networks. \n<br />\n<br />The Link Access Procedure-Balanced (LAP-B) and Link Access Procedure D-channel (LAP-D) protocols are subsets of HDLC.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-header",
+    "anchor": "term-header",
+    "term": "Header",
+    "aliases": [],
+    "html": "In many disciplines of computer science, a header is a unit of information that precedes a data object. In a network transmission, a header is part of the data packet and contains transparent information about the file or the transmission. In file management, a header is a region at the beginning of each file where bookkeeping information is kept. The file header may contain the date the file was created, the date it was last updated, and the file's size. The header can be accessed only by the operating system or by specialized programs.\n<br />\n<br />In word processing, one or more lines of text that appears at the top of each page of a document. Once you specify the text that should appear in the header, the word processor automatically inserts it.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-host",
+    "anchor": "term-host",
+    "term": "Host",
+    "aliases": [],
+    "html": "Host is a computer system that is accessed by a user working at a remote location. Typically, the term is used when there are two computer systems connected by modems and telephone lines. The system that contains the data is called the host, while the computer at which the user sits is called the remote terminal. \n<br />\n<br />Host can refer to a computer that is connected to a TCP/IP network, including the Internet. Each host has a unique IP address. \n<br />\n<br />Host can refer to provide the infrastructure for a computer service too. For example, there are many companies that host Web servers. This means that they provide the hardware, software, and communications lines required by the server, but the content on the server may be controlled by someone else.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-http-1-1",
+    "anchor": "term-http-1-1",
+    "term": "HTTP/1.1",
+    "aliases": [],
+    "html": "The latest version of HTTP. The goal of HTTP/1.1 is to support the wide diversity of configurations already deployed while introducing protocol constructs that meet the needs of those who build web applications that require high reliability and, failing that, at least reliable indications of failure.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-hypertext",
+    "anchor": "term-hypertext",
+    "term": "Hypertext",
+    "aliases": [],
+    "html": "A special type of database system, invented by Ted Nelson in the 1960s, in which objects (text, pictures, music, programs, and so on) can be creatively linked to each other. When you select an object, you can see all the other objects that are linked to it. You can move from one object to another even though they might have very different forms. For example, while reading a document about Mozart, you might click on the phrase Violin Concerto in A Major, which could display the written score or perhaps even invoke a recording of the concerto. Clicking on the name Mozart might cause various illustrations of Mozart to appear on the screen. The icons that you select to view associated objects are called Hypertext links or buttons. \n<br />\n<br />Hypertext systems are particularly useful for organizing and browsing through large databases that consist of disparate types of information. There are several Hypertext systems available for Apple Macintosh computers and PCs that enable you to develop your own databases. Such systems are often called authoring systems . HyperCard software from Apple Computer is the most famous.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-i-o",
+    "anchor": "term-i-o",
+    "term": "I/O",
+    "aliases": [],
+    "html": "I/O (Input/output) is the collection of interfaces that different functional units (sub-systems) of an information processing system use to communicate with each other, or the signals (information) sent through those interfaces. Inputs are the signals received by the unit, and outputs are the signals sent from it.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-ibm",
+    "anchor": "term-ibm",
+    "term": "IBM",
+    "aliases": [],
+    "html": "IBM (International Business Machines) is headquartered in Armonk, NY, USA. The company manufactures and sells computer hardware, software, and services.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-icgnu",
+    "anchor": "term-icgnu",
+    "term": "ICGnu",
+    "aliases": [],
+    "html": "ICGnu is another initiative to create an open protocol for presence notification and instant messaging. The project seem to have disappeared now, however.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-identification",
+    "anchor": "term-identification",
+    "term": "Identification",
+    "aliases": [],
+    "html": "In a biometric security system, the process of comparing a biometric data sample against all of the system databased reference templates in order to establish the identity of the person trying to gain access to the system.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-ieee",
+    "anchor": "term-ieee",
+    "term": "IEEE",
+    "aliases": [],
+    "html": "IEEE (Institute of Electrical and Electronics Engineers) is best known for developing standards for the computer and electronics industry, which founded in 1884 as the AIEE, the IEEE was formed in 1963 when AIEE merged with IRE. IEEE is an organization composed of engineers, scientists, and students. The IEEE is best known for developing standards for the computer and electronics industry. In particular, the IEEE 802 standards for local-area networks are widely followed.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-igp",
+    "anchor": "term-igp",
+    "term": "IGP",
+    "aliases": [],
+    "html": "IGP (Interior Gateway Protocol) is a protocol for exchanging routing information between gateways (hosts with routers) within an autonomous network. such as a enterprise LAN. IGPs typically support confined geographical areas. \n<br />\n<br />RIP and OSPF are two examples of an IGP.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-imap",
+    "anchor": "term-imap",
+    "term": "IMAP",
+    "aliases": [],
+    "html": "IMAP 9Internet Message Access Protocol) is a protocol for retrieving e-mail messages. The latest version, IMAP4, is similar to POP3 but supports some additional features. For example, with IMAP4, you can search through your e-mail messages for keywords while the messages are still on mail server. You can then choose which messages to download to your machine.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-internet",
+    "anchor": "term-internet",
+    "term": "Internet",
+    "aliases": [],
+    "html": "A global network connecting millions of computers. More than 100 countries are linked into exchanges of data, news and opinions. \n<br />\n<br />Unlike online services, which are centrally controlled, the Internet is decentralized by design. Each Internet computer, called a host, is independent. Its operators can choose which Internet services to use and which local services to make available to the global Internet community. Remarkably, this anarchy by design works exceedingly well. \n<br />\n<br />There are a variety of ways to access the Internet. Most online services, such as America Online, offer access to some Internet services. It is also possible to gain access through a commercial Internet Service Provider (ISP).",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-ios",
+    "anchor": "term-ios",
+    "term": "IOS",
+    "aliases": [],
+    "html": "Internet over Satellit (IOS) technology allows a user to access the Internet via a satellite that orbits the earth. A satellite is placed at a static point above the earth's surface. The satellite in a fixed position, also referred to as geostationary or geosynchronous, is able to maintain a reliable connection to the antennas on the earth because the satellite orbits the earth at the exact speed of the earth's rotation. Because of the enormous distances signals must travel from the earth up to the satellite and back again, IOS is slightly slower than high-speed terrestrial connections over copper or fiber optic cables.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-ipx",
+    "anchor": "term-ipx",
+    "term": "IPX",
+    "aliases": [],
+    "html": "IPX(Internetwork Packet Exchange), a networking protocol used by the Novell NetWare operating systems. Like UDP/IP, IPX is a datagram protocol used for connectionless communications. Higher-level protocols, such as SPX and NCP, are used for additional error recovery services. ",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-iso",
+    "anchor": "term-iso",
+    "term": "ISO",
+    "aliases": [],
+    "html": "ISO (International Organization for Standardization) is a network of the national standards institutes of 146 countries, on the basis of one member per country, with a Central Secretariat in Geneva, Switzerland, that coordinates the system. ISO has defined a number of important computer standards, the most significant of which is perhaps OSI (Open Systems Interconnection), a standardized architecture for designing networks.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-itrace",
+    "anchor": "term-itrace",
+    "term": "Itrace",
+    "aliases": [],
+    "html": "Itrace (ICMP Traceback) is often useful to learn the path that packets take through the Internet.  This is especially important for dealing with certain denial-of-service attacks, where the source IP is forged. There areother uses as well, including path characterization and detection of asymmetric routes.  There are existing tools, such as traceroute, but these generally provide the forward path, not the reverse.\n<br />\n<br />We propose an ICMP Traceback message to help solve this problem. When forwarding packets, routers can, with a low probability,generate a Traceback message that is sent along to the destination. With enough Traceback messages from enough routers along the path, the traffic source and path can be determined.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-java",
+    "anchor": "term-java",
+    "term": "Java",
+    "aliases": [],
+    "html": "Java is an object-oriented programming language developed initially by James Gosling and colleagues at Sun Microsystems. Initially called Oak (named after the oak trees outside Gosling's office), it was intended to replace C++, although the feature set better resembles that of Objective-C.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-kdc",
+    "anchor": "term-kdc",
+    "term": "KDC",
+    "aliases": [],
+    "html": "KDC (Key Distribution Center) is a network service that supplies tickets and temporary session keys; or an instance of that service or the host on which it runs. The KDC services both initial ticket and ticket-granting ticket requests. The initial ticket portion is sometimes referred to as the Authentication Server (or service). The ticket-granting ticket portion is sometimes referred to as the ticket-granting server (or service).",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-keyboard",
+    "anchor": "term-keyboard",
+    "term": "Keyboard",
+    "aliases": [],
+    "html": "Keyboard is a set of typewriter-like keys that enables you to enter data into a computer. Computer keyboards are similar to electric-typewriter keyboards but contain additional keys. The keys on computer keyboards are often classified as follows: \n<br />*alphanumeric keys -- letters and numbers \n<br />*punctuation keys -- comma, period, semicolon, and so on. \n<br />*special keys -- function keys, control keys, arrow keys, Caps Lock key, and so on.\n<br />\n<br />The standard layout of letters, numbers, and punctuation is known as a QWERTY keyboard because the first six keys on the top row of letters spell QWERTY. The QWERTY keyboard was designed in the 1800s for mechanical typewriters and was actually designed to slow typists down to avoid jamming the keys. Another keyboard design, which has letters positioned for speed typing, is the Dvorak keyboard. \n<br />\n<br />There is no standard computer keyboard, although many manufacturers imitate the keyboards of PCs. There are actually three different PC keyboards: the original PC keyboard, with 84 keys; the AT keyboard, also with 84 keys; and the enhanced keyboard, with 101 keys. The three differ somewhat in the placement of function keys, the Control key, the Return key, and the Shift keys. \n<br />\n<br />In addition to these keys, IBM keyboards contain the following keys: Page Up, Page Down, Home, End, Insert, Pause, Num Lock, Scroll Lock, Break, Caps Lock, Print Screen. \n<br />\n<br />There are several different types of keyboards for the Apple Macintosh. All of them are called ADB keyboards because they connect to the Apple Desktop bus (ADB). The two main varieties of Macintosh keyboards are the standard keyboard and the extended keyboard, which has 15 additional special-function keys.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-l2tp",
+    "anchor": "term-l2tp",
+    "term": "L2TP",
+    "aliases": [],
+    "html": "Layer Two (2) Tunneling Protocol, an extension to the PPP protocol that enables ISPs to operate Virtual Private Networks (VPNs). L2TP merges the best features of two other tunneling protocols: PPTP from Microsoft and L2F from Cisco Systems. Like PPTP, L2TP requires that the ISP's routers support the protocol.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-lan",
+    "anchor": "term-lan",
+    "term": "LAN",
+    "aliases": [],
+    "html": "Local-area network (LAN) is a computer network that spans a relatively small area. Most LANs are confined to a single building or group of buildings. However, one LAN can be connected to other LANs over any distance via telephone lines and radio waves. A system of LANs connected in this way is called a wide-area network (WAN). \n<br />\n<br />Most LANs connect workstations and personal computers. Each node (individual computer ) in a LAN has its own CPU with which it executes programs, but it also is able to access data and devices anywhere on the LAN. This means that many users can share expensive devices, such as laser printers, as well as data. Users can also use the LAN to communicate with each other, by sending e-mail or engaging in chat sessions.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-lcp",
+    "anchor": "term-lcp",
+    "term": "LCP",
+    "aliases": [],
+    "html": "LCP (Link Control Protocol) is used to automatically agree upon the encapsulation format options, handle varying limits on sizes of packets, detect a looped-back link and other common misconfiguration errors, and terminate the link. The LCP checks the identity of the linked device and either accepts or rejects the peer device, determines the acceptable packet size for transmission, searches for errors in configuration and can terminate the link if the parameters are not satisfied. Data cannot be transmitted over the network until the LCP packet determines that the link is acceptable.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-ldap",
+    "anchor": "term-ldap",
+    "term": "LDAP",
+    "aliases": [],
+    "html": "LDAP (Lightweight Directory Access Protocol) is a set of protocols for accessing information directories. LDAP is based on the standards contained within the X.500 standard, but is significantly simpler. And unlike X.500, LDAP supports TCP/IP, which is necessary for any type of Internet access. Because it's a simpler version of X.500, LDAP is sometimes called X.500-lite.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-lfn",
+    "anchor": "term-lfn",
+    "term": "LFN",
+    "aliases": [],
+    "html": "LFN (Long Fat Network) is a communications path with a large bandwidth * delay product.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-link",
+    "anchor": "term-link",
+    "term": "Link",
+    "aliases": [],
+    "html": "In communications, a link is a line or channel over which data is transmitted. \n<br />\n<br />In data management systems, a link is a pointer to another record. You can connect one or more records by inserting links into them. \n<br />\n<br />In some operating systems (UNIX, for example), a link is a pointer to a file. Links make it possible to reference a file by several different names and to access a file without specifying a full path. \n<br />\n<br />In hypertext systems, such as the World Wide Web, a link is a reference to another document. Such links are sometimes called hot links because they take you to other document when you click on them.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-ll-pdu",
+    "anchor": "term-ll-pdu",
+    "term": "LL-PDU",
+    "aliases": [],
+    "html": "LL-PDU (Logical Linl Control Protocol Data Unit) is a frame comprising of either, user data, SMS message or GPRS Mobility Management information which has been “built” by the LLC (Logical Link Control) protocol enabling its reliable transfer between the MS (Mobile Station) and SGSN (Serving GPRS Support Node).",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-lmtp",
+    "anchor": "term-lmtp",
+    "term": "LMTP",
+    "aliases": [],
+    "html": "LMTP(Local Mail Transfer Protocol)\n<br />In some limited circumstances, outside the area of mail exchange between independent hosts on public networks, it is desirable to implement a system where a mail receiver does not manage a queue. LMTP protocol for transporting mail into such systems.\n<br />\n<br />Although LMTP is an alternative protocol to ESMTP, it uses (with a few changes) the syntax and semantics of ESMTP.  This design permits LMTP to utilize the extensions defined for ESMTP. LMTP should be used only by specific prior arrangement and configuration, and it MUST NOT be \n<br />\n<br />used on TCP port 25.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-lns",
+    "anchor": "term-lns",
+    "term": "LNS",
+    "aliases": [],
+    "html": "LNS (L2TP Network Server) operates on any platform capable of PPP termination. The LNS handles the server side of the L2TP protocol. L2TP is connection-oriented.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-logon",
+    "anchor": "term-logon",
+    "term": "Logon",
+    "aliases": [],
+    "html": "To make a computer system or network recognize you so that you can begin a computer session. Most personal computers have no log-on procedure -- you just turn the machine on and begin working. For larger systems and networks, however, you usually need to enter a username and password before the computer system will allow you to execute programs. \n<br />\n<br />Alternative spellings for log on are log in and login. ",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-lprng",
+    "anchor": "term-lprng",
+    "term": "LPRng",
+    "aliases": [],
+    "html": "The application LPRng is an implementation of the Line Printer Daemon protocol (commonly known as the Berkeley printing system or LPR/LPD) that provides printer spooling and network print server functionality. It is an open-source project hosted on SourceForge and implemented by many open-source Unix-like operating systems.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-lu",
+    "anchor": "term-lu",
+    "term": "LU",
+    "aliases": [],
+    "html": "LU(Logical Unit) is a port through which end users access the SNA network in order to communicate with other end users and the functions provided by system services control points (SSCPs). An LU can support at least two sessions (one with an SSCP and one with another LU) and may be capable of supporting many sessions with other logical units.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-mac",
+    "anchor": "term-mac",
+    "term": "MAC",
+    "aliases": [],
+    "html": "MAC (Medium Access Control) is a hardware address that uniquely identifies each node of a network. In IEEE 802 networks, the Data Link Control (DLC) layer of the OSI Reference Model is divided into two sublayers: the Logical Link Control (LLC) layer and the Media Access Control (MAC) layer. The MAC layer interfaces directly with the network medium. Consequently, each different type of network medium requires a different MAC layer. \n<br />\n<br />On networks that do not conform to the IEEE 802 standards but do conform to the OSI Reference Model, the node address is called the Data Link Control (DLC) address.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-method",
+    "anchor": "term-method",
+    "term": "Method",
+    "aliases": [],
+    "html": "In object-oriented programming, a procedure that is executed when an object receives a message. A method is really the same as a procedure, function , or routine in procedural programming languages. The only difference is that in object-oriented programming, a method is always associated with a class.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-mgcp",
+    "anchor": "term-mgcp",
+    "term": "MGCP",
+    "aliases": [],
+    "html": "Media Gateway Control Protocol, developed by Telcordia and Level 3 Communications, a control and signal standards to compete with the older H.323 standard for the conversion of audio signals carried on telephone circuits (PSTN ) to data packets carried over the Internet or other packet networks.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-mime",
+    "anchor": "term-mime",
+    "term": "MIME",
+    "aliases": [],
+    "html": "MIME (Multipurpose Internet Mail Extensions) is a specification for formatting non-ASCII messages so that they can be sent over the Internet. Many e-mail clients now support MIME, which enables them to send and receive graphics, audio, and video files via the Internet mail system. In addition, MIME supports messages in character sets other than ASCII. \n<br />\n<br />There are many predefined MIME types, such as GIF graphics files and PostScript files. It is also possible to define your own MIME types. \n<br />\n<br />In addition to e-mail applications, Web browsers also support various MIME types. This enables the browser to display or output files that are not in HTML format.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-mld",
+    "anchor": "term-mld",
+    "term": "MLD",
+    "aliases": [],
+    "html": "MLD (Multicast Listener Discovery Protocol) is used by IPv6 routers to discover the presence of multicast listeners on their directly attached links, and to discover specifically which multicast addresses are of interest to those neighboring nodes.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-mmc",
+    "anchor": "term-mmc",
+    "term": "MMC",
+    "aliases": [],
+    "html": "MMC (Microsoft Management Console) is an extensible common presentation service for management applications. MMC is included in the Windows&amp;reg; 2000 operating system.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-mouse",
+    "anchor": "term-mouse",
+    "term": "Mouse",
+    "aliases": [],
+    "html": "Mouse is a device that controls the movement of the cursor or pointer on a display screen. A mouse is a small object you can roll along a hard, flat surface. Its name is derived from its shape, which looks a bit like a mouse, its connecting wire that one can imagine to be the mouse's tail, and the fact that one must make it scurry along a surface. As you move the mouse, the pointer on the display screen moves in the same direction. Mice contain at least one button and sometimes as many as three, which have different functions depending on what program is running. Some newer mice also include a scroll wheel for scrolling through long documents.\n<br />\n<br />There are three basic types of mice: \n<br />*mechanical-- Has a rubber or metal ball on its underside that can roll in all directions. Mechanical sensors within the mouse detect the direction the ball is rolling and move the screen pointer accordingly. \n<br />*optomechanical-- Same as a mechanical mouse, but uses optical sensors to detect motion of the ball. \n<br />*optical-- Uses a laser to detect the mouse's movement. \n<br />\n<br />You must move the mouse along a special mat with a grid so that the optical mechanism has a frame of reference. Optical mice have no mechanical moving parts. They respond more quickly and precisely than mechanical and optomechanical mice, but they are also more expensive. ",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-mpeg",
+    "anchor": "term-mpeg",
+    "term": "MPEG",
+    "aliases": [],
+    "html": "MPEG (Moving Picture Experts Group) is a working group of ISO. The term also refers to the family of digital video compression standards and file formats developed by the group. MPEG generally produces better-quality video than competing formats, such as Video for Windows, Indeo and QuickTime. MPEG files can be decoded by special hardware or by software.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-msl",
+    "anchor": "term-msl",
+    "term": "MSL",
+    "aliases": [],
+    "html": "MSL(Maximum Segment Lifetime) is the maximum interval a TCP segment may life in the net. MSL is the time a TCP segment can exist in the internetwork system.  \n<br />\n<br />The MSL controls the maximum rate at which fragmented datagrams can be sent using distinct  values of the 16-bit Ident field; a larger MSL lowers the maximum rate.  The TCP specification [TCP:1] arbitrarily assumes a value of 2 minutes for MSL.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-mtu",
+    "anchor": "term-mtu",
+    "term": "MTU",
+    "aliases": [],
+    "html": "MTU (Maximum transmission unit) is the size of the largest packet that can be transmitted over a particular medium. Packets exceeding the MTU value in size are fragmented or segmented, and then reassembled at the receiving end. If fragmentation is not supported or possible, a packet that exceeds the MTU value is dropped.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-multicast",
+    "anchor": "term-multicast",
+    "term": "Multicast",
+    "aliases": [],
+    "html": "Multicast is designed to transmit a single message to a select group of recipients. A simple example of multicasting is sending an e-mail message to a mailing list. Teleconferencing and videoconferencing also use multicasting, but require more robust protocols and networks.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-nas",
+    "anchor": "term-nas",
+    "term": "NAS",
+    "aliases": [],
+    "html": "NAS (Netnews Administration System) is based on a database which contains information about certain groups and hierarchies. This database is structured in a hierarchical manner, distributed to various servers and is able to receive queries at any time.\tThe service is comparable to directory services like DNS, LDAP or\tNIS. The NAS protocol is inspired by protocols like NNTP and SMTP. The port 991 is reserved for NAS and registered by the Internet Assigned Number Authority(IANA).",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-nbdd",
+    "anchor": "term-nbdd",
+    "term": "NBDD",
+    "aliases": [],
+    "html": "NBDD is Netbios datagram distribution. This server relays broadcast and multicast (group) datagrams to all intended recipients. When a P, M, or H node wishes to send a broadcast or multicast datagram, it will send the datagram to the NBDD. The NBDD will obtain the list of destination IPs from the NBNS and then unicast the datagram to each of those nodes.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-ncp",
+    "anchor": "term-ncp",
+    "term": "NCP",
+    "aliases": [],
+    "html": "NCP (Novell NetWare Core Protocol) manages access to the primary NetWare server resources. Used to establish and configure one or more network layer protocols that will be used by the link. Protocol field values in the range of 0x8XXX to 0xBXXX identify packets belonging to the associated Network Control Protocol.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-next-hop",
+    "anchor": "term-next-hop",
+    "term": "NEXT_HOP",
+    "aliases": [],
+    "html": "The IP address of the border router that should be used as the next hop to the destinations listed in the UPDATE message.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-nfs",
+    "anchor": "term-nfs",
+    "term": "NFS",
+    "aliases": [],
+    "html": "NFS (Network File System) is a client/server application designed by Sun Microsystems that allows all network users to access shared files stored on computers of different types. NFS provides access to shared files through an interface called the Virtual File System (VFS) that runs on top of TCP/IP. Users can manipulate shared files as if they were stored locally on the user's own hard disk. \n<br />\n<br />With NFS, computers connected to a network operate as clients while accessing remote files, and as servers while providing remote users access to local shared files. The NFS standards are publicly available and widely used.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-nic",
+    "anchor": "term-nic",
+    "term": "NIC",
+    "aliases": [],
+    "html": "NIC(Network interface card) is an expansion board you insert into a computer so the computer can be connected to a network. Most NICs are designed for a particular type of network, protocol, and media, although some can serve multiple networks.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-nmss",
+    "anchor": "term-nmss",
+    "term": "NMSs",
+    "aliases": [],
+    "html": "NMSs (network-management systems) is an NMS executes applications that monitor and control managed devices.\n<br />",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-nntp",
+    "anchor": "term-nntp",
+    "term": "NNTP",
+    "aliases": [],
+    "html": "Network News Transfer Protocol or NNTP is an Internet application protocol used primarily for reading and posting Usenet articles, as well as transferring news among news servers.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-node",
+    "anchor": "term-node",
+    "term": "Node",
+    "aliases": [],
+    "html": "In networks, node is a processing location. A node can be a computer or some other device, such as a printer. Every node has a unique network address, sometimes called a Data Link Control (DLC) address or Media Access Control (MAC) address. \n<br />\n<br />In tree structures, node is a point where two or more lines meet. ",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-nsfnet",
+    "anchor": "term-nsfnet",
+    "term": "NSFnet",
+    "aliases": [],
+    "html": "NSFnet is a wide-area network developed under the auspices of the National Science Foundation (NSF). NSFnet replaced ARPANET as the main government network linking universities and research facilities. In 1995, however, the NSF dismantled NSFnet and replaced it with a commercial Internet backbone. At the same time, the NSF implemented a new backbone called very high-speed Backbone Network Service (vBNS), which serves as a testing ground for the next generation of Internet technologies.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-ntp",
+    "anchor": "term-ntp",
+    "term": "NTP",
+    "aliases": [],
+    "html": "Network Time Protocol, an Internet standard protocol (built on top of TCP/IP) that assures accurate synchronization to the millisecond of computer clock times in a network of computers. Based on UTC, NTP synchronizes client workstation clocks to the U.S. Naval Observatory Master Clocks in Washington, DC and Colorado Springs CO. Running as a continuous background client program on a computer, NTP sends periodic time requests to servers, obtaining server time stamps and using them to adjust the client's clock.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-nvt",
+    "anchor": "term-nvt",
+    "term": "NVT",
+    "aliases": [],
+    "html": "The Network Virtual Terminal as defined in the Telnet Protocol.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-object",
+    "anchor": "term-object",
+    "term": "Object",
+    "aliases": [],
+    "html": "Object is an element of an RSVP control message; a type, length, value triplet.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-octet",
+    "anchor": "term-octet",
+    "term": "Octet",
+    "aliases": [],
+    "html": "An octet is 8 bits. It is equivalent to a byte, as long as the byte is also 8 bits. Bytes range from 4 - 10 bits, but octets are always 8 bits.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-odmr",
+    "anchor": "term-odmr",
+    "term": "ODMR",
+    "aliases": [],
+    "html": "ODMR(On-Demand Mail Relay), an e-mail service that allows a user to request e-mail from any internet connection by using a dynamic IP address as opposed to a static IP address. With OMDR, the user connects to an ISP that supports OMDR, authenticates and then requests e-mail. When the user requests e-mail, the roles of client and server reverse and normal SMTP operations proceed.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-office-of-the-future",
+    "anchor": "term-office-of-the-future",
+    "term": "Office of the future",
+    "aliases": [],
+    "html": "Office of the future is a concept dating from the 1940s. It is also known as the paperless office. After thirty years of unfulfilled prophecies the word paperless office has been discredited somewhat. Research and development around the idea continues under the name office of the future, with quite a few novelties.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-oracle",
+    "anchor": "term-oracle",
+    "term": "Oracle",
+    "aliases": [],
+    "html": "Oracle Corporation is the largest software company whose primary business is database products. Historically, Oracle has targeted high-end workstations and minicomputers as the server platforms to run its database systems. Its relational database was the first to support the SQL language, which has since become the industry standard.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-osi",
+    "anchor": "term-osi",
+    "term": "OSI",
+    "aliases": [],
+    "html": "ISO (Open Systems Interconnection) is a worldwide communications that defines a networking framework for implementing protocols in seven layers. Control is passed from one layer to the next, starting at the application layer in one station, proceeding to the bottom layer, over the channel to the next station and back up the hierarchy. \n<br />\n<br />At one time, most vendors agreed to support OSI in one form or another, but OSI was too loosely defined and proprietary standards were too entrenched. Except for the OSI-compliant X.400 and X.500 e-mail and directory standards, which are widely used, what was once thought to become the universal communications standard now serves as the teaching model for all other protocols. \n<br />\n<br />Most of the functionality in the OSI model exists in all communications systems, although two or three OSI layers may be incorporated into one. \n<br />\n<br />OSI is also referred to as the OSI Reference Model or just the OSI Model.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-outlook-express",
+    "anchor": "term-outlook-express",
+    "term": "Outlook Express",
+    "aliases": [],
+    "html": "Outlook Express is an email program supplied with Internet Explorer V4 and V5. Although closely connected with Internet Explorer, Outlook Express is a separate program. Outlook Express is completely different to and separate from Outlook. Sadly Outlook Express has arcane internal version numbers which bear no resemblance to the external version numbers.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-pap",
+    "anchor": "term-pap",
+    "term": "PAP",
+    "aliases": [],
+    "html": "PAP (Password Authentication Protocol) is the most basic form of authentication, in which a user's name and password are transmitted over a network and compared to a table of name-password pairs. Typically, the passwords stored in the table are encrypted. The Basic Authentication feature built into the HTTP protocol uses PAP. The main weakness of PAP is that both the username and password are transmitted \"in the clear\" -- that is, in an unencrypted form. Contrast with CHAP.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-pc-dos",
+    "anchor": "term-pc-dos",
+    "term": "PC-DOS",
+    "aliases": [],
+    "html": "PC-DOS (Personal Computer - Disk Operating System) was the first widely-installed operating system used in personal computers. It was developed for IBM by Bill Gates and his fledgling Microsoft Corporation for installation in IBM's first lines of PCs. Gates marketed an almost identical version of the operating system called MS-DOS (Microsoft - Disk Operating System). Most users of either DOS system have usually referred to their system as just DOS. Like MS-DOS, PC-DOS was (and still is) a non-graphical line-oriented command-driven operating system, with a relatively simple interface but not overly \"friendly\" user interface. Its prompt to enter a command looks like this:\n<br />C:&gt; \n<br />\n<br />The first Microsoft Windows operating system was really an application that ran on top of the MS-DOS operating system. Today, Windows operating systems continue to support DOS (or a DOS-like user interface) for special purposes by emulating the operating system. \n<br />\n<br />In the 1970s before the personal computer was invented, IBM had a different and unrelated DOS (Disk Operating System) that ran on smaller business computers. It was replaced by IBM's VSE operating system.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-pdf",
+    "anchor": "term-pdf",
+    "term": "PDF",
+    "aliases": [],
+    "html": "PDF (Portable Document Format) is a file format developed by Adobe Systems for representing documents in a manner that is independent of the original application software, hardware, and operating system used to create those documents.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-peer",
+    "anchor": "term-peer",
+    "term": "Peer",
+    "aliases": [],
+    "html": "The other end of a point-to-point link.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-pgp",
+    "anchor": "term-pgp",
+    "term": "PGP",
+    "aliases": [],
+    "html": "PGP (Pretty Good Privacy) is a family of software systems developed by Philip R. Zimmermann and can be used to provide privacy and authentication using the Multipurpose Internet Mail Extensions (MIME) security content types. PGP and Pretty Good Privacy are trademarks of Philip Zimmermann.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-ping",
+    "anchor": "term-ping",
+    "term": "Ping",
+    "aliases": [],
+    "html": "A utility to determine whether a specific IP address is accessible. It works by sending a packet to the specified address and waiting for a reply. PING is used primarily to troubleshoot Internet connections. There are many freeware and shareware Ping utilities available for personal computers. \n<br />\n<br />It is often believed that \"Ping\" is an abbreviation for Packet Internet Groper, but Ping's author has stated that the names comes from the sound that a sonar makes.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-plain-text",
+    "anchor": "term-plain-text",
+    "term": "Plain text",
+    "aliases": [],
+    "html": "Plain text refers to textual data in ASCII format. Plain text is the most portable format because it is supported by nearly every application on every machine. It is quite limited, however, because it cannot contain any formatting commands.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-pns",
+    "anchor": "term-pns",
+    "term": "PNS",
+    "aliases": [],
+    "html": "A PNS (PPTP Network Server) is envisioned to operate on general-purpose computing/server platforms. The PNS handles the server side of the PPTP protocol. Since PPTP relies completely on TCP/IP and is independent of the interface hardware, the PNS may use any combination of IP interface hardware including LAN and WAN devices.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-pop",
+    "anchor": "term-pop",
+    "term": "POP",
+    "aliases": [],
+    "html": "POP (Post Office Protocol) is a protocol used to retrieve e-mail from a mail server. Most e-mail applications (sometimes called an e-mail client) use the POP protocol, although some can use the newer IMAP (Internet Message Access Protocol). There are two versions of POP. The first, called POP2, became a standard in the mid-80's and requires SMTP to send messages. The newer version, POP3, can be used with or without SMTP.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-ppp",
+    "anchor": "term-ppp",
+    "term": "PPP",
+    "aliases": [],
+    "html": "PPP(Point-to-Point Protocol) is a method of connecting a computer to the Internet. PPP is more stable than the older SLIP protocol and provides error checking features. Working in the data link layer of the OSI model, PPP sends the computer's TCP/IP packets to a server that puts them onto the Internet. ",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-proxy",
+    "anchor": "term-proxy",
+    "term": "Proxy",
+    "aliases": [],
+    "html": "An intermediary program which acts as both a server and a client for the purpose of making requests on behalf of other clients. Requests are serviced internally or by passing them, with possible translation, on to other servers. A proxy must interpret and, if necessary, rewrite a request message before forwarding it. Proxies are often used as client-side portals through network firewalls and as helper applications for handling requests via protocols not implemented by the user agent.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-pstn",
+    "anchor": "term-pstn",
+    "term": "PSTN",
+    "aliases": [],
+    "html": "PSTN (Public Switched Telephone Network), which refers to the international telephone system based on copper wires carrying analog voice data. This is in contrast to newer telephone networks base on digital technologies, such as ISDN and FDDI.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-pu",
+    "anchor": "term-pu",
+    "term": "PU",
+    "aliases": [],
+    "html": "PU(Physical Unit ) is one of the three types of network addressable units (NAUs). Each node of an SNA network contains a physical unit (PU) that manages and monitors the resources (such as attached links) of a node, as requested by a system services control point (SSCP) via an SSCP-PU session. An SSCP activates a session with the PU in order to indirectly manage resources of the node such as attached links through the PU.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-q-931",
+    "anchor": "term-q-931",
+    "term": "Q.931",
+    "aliases": [],
+    "html": "Q.931 is an ISDN connection control protocol, roughly comparable to TCP in the Internet protocol stack. Q.931 doesn't provide flow control or perform retransmission, because the underlying layers are assumed to be reliable and the circuit-oriented nature of ISDN allocates bandwidth in fixed increments of 64 kbps. Q.931 does manage connection setup and breakdown. In H.323 scenario, this protocol is encapsulated in TCP and sent to port 1720.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-qos",
+    "anchor": "term-qos",
+    "term": "QoS",
+    "aliases": [],
+    "html": "QoS (Quality of Service) refers to the capability of a network to provide better service to selected network traffic over various technologies, including Frame Relay, Asynchronous Transfer Mode (ATM), Ethernet and 802.1 networks, SONET, and IP-routed networks that may use any or all of these underlying technologies.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-quality-of-service",
+    "anchor": "term-quality-of-service",
+    "term": "Quality of service",
+    "aliases": [],
+    "html": "In the fields of packet-switched networks and computer networking, the traffic engineering term Quality of Service (QoS) refers to the probability of the telecommunication network meeting a given traffic contract, or in many cases is used informally to refer the probability of a packet succeeding in passing between two points in the network.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-rarp",
+    "anchor": "term-rarp",
+    "term": "RARP",
+    "aliases": [],
+    "html": "RARP (Reverse Address Resolution Protocol) is a TCP/IP protocol that permits a physical address, such as an Ethernet address, to be translated into an IP address. Hosts such as diskless workstations often only know their hardware interface addresses, or MAC address, when booted but not their IP addresses. They must discover their IP addresses from an external source, usually a RARP server.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-rc4",
+    "anchor": "term-rc4",
+    "term": "RC4",
+    "aliases": [],
+    "html": "RC4 (or ARCFOUR) is the most widely-used software stream cipher and is used in popular protocols such as Secure Sockets Layer (SSL) (to protect Internet traffic) and WEP (to secure wireless networks). RC4 falls short of the high standards of security set by cryptographers, and some ways of using RC4 lead to very insecure cryptosystems (including WEP).",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-rdp",
+    "anchor": "term-rdp",
+    "term": "RDP",
+    "aliases": [],
+    "html": "The RDP (Microsoft Remote Desktop Protocol) provides remote display and input capabilities over network connections for Windows-based applications running on a server. RDP is designed to support different types of network topologies and multiple LAN protocols",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-redirect",
+    "anchor": "term-redirect",
+    "term": "Redirect",
+    "aliases": [],
+    "html": "In operating system shells, redirection refers to directing input and output to files and devices other than the default I/O devices. By default, input generally comes from the keyboard or mouse, and output goes to the display monitor. With a redirection operator, you can override these defaults so that a command or program takes input from some other device and sends output to a different device. ICMP Redirect is a mechanism for routers to convey routing information to hosts.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-rfc",
+    "anchor": "term-rfc",
+    "term": "RFC",
+    "aliases": [],
+    "html": "RFC (Requests for Comments) document series is a set of technical and organizational notes about the Internet (originally the ARPANET), beginning in 1969(when the Internet was the ARPANET). An Internet Document can be submitted to the IETF by anyone, but the IETF decides if the document becomes an RFC. Eventually, if it gains enough interest, it may evolve into an Internet standard. \n<br />\n<br />Each RFC is designated by an RFC number. Once published, an RFC never changes. Modifications to an original RFC are assigned a new RFC number.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-ringback",
+    "anchor": "term-ringback",
+    "term": "Ringback",
+    "aliases": [],
+    "html": "The signaling tone produced by the calling party's application indicating that a called party is being alerted (ringing).",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-rlogin",
+    "anchor": "term-rlogin",
+    "term": "RLOGIN",
+    "aliases": [],
+    "html": "Rlogin (remote login) is a Unix command that allows an authorized user to login to other UNIX machines (hosts) on a network and to interact as if the user were physically at the host computer. Once logged in to the host, the user can do anything that the host has given permission for, such as read, edit, or delete files.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-rnc",
+    "anchor": "term-rnc",
+    "term": "RNC",
+    "aliases": [],
+    "html": "The RNC (Radio Network Controller) is the governing element in the UMTS radio access network (UTRAN) responsible for control of the Node-Bs, that is to say the base stations which are connected to the controller. The RNC carries out radio resource management, some of the mobility management functions and is the point where encryption is done before user data is sent to and from the mobile.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-router",
+    "anchor": "term-router",
+    "term": "Router",
+    "aliases": [],
+    "html": "A device that forwards data packets along networks. A router is connected to at least two networks, commonly two LANs or WANs or a LAN and its ISP network. Routers are located at gateways, the places where two or more networks connect. \n<br />\n<br />Routers use headers and forwarding tables to determine the best path for forwarding the packets, and they use protocols such as ICMP to communicate with each other and configure the best route between any two hosts.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-rpc",
+    "anchor": "term-rpc",
+    "term": "RPC",
+    "aliases": [],
+    "html": "RPC(Remote Procedure Call), a type of protocol that allows a program on one computer to execute a program on a server computer. Using RPC, a system developer need not develop specific procedures for the server. The client program sends a message to the server with appropriate arguments and the server returns a message containing the results of the program executed. \n<br />\n<br />Two newer object-oriented methods for programs to communicate with each other, CORBA and DCOM, provide the same types of capabilities as traditional RPCs.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-rsync",
+    "anchor": "term-rsync",
+    "term": "Rsync",
+    "aliases": [],
+    "html": "The rsync is an open source utility that provides fast incremental file transfer.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-rtp",
+    "anchor": "term-rtp",
+    "term": "RTP",
+    "aliases": [],
+    "html": "RTP (Real-Time Transport Protocol) is an Internet protocol for transmitting real-time data such as audio and video. RTP itself does not guarantee real-time delivery of data, but it does provide mechanisms for the sending and receiving applications to support streaming data. Typically, RTP runs on top of the UDP protocol, although the specification is general enough to support other transport protocols.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-ru-chain",
+    "anchor": "term-ru-chain",
+    "term": "RU Chain",
+    "aliases": [],
+    "html": "RU Chain is a set of related request/response units (RUs) that are consecutively transmitted on a particular normal or expedited data flow. The request RU chain is the unit of recovery: if one of the RUs in the chain cannot be processed, the entire chain is discarded. Each RU belongs to only one chain, which has a beginning and an end indicated via control bits for request/response headers within the RU chain. Each RU chain can be designated as first-in-chain (FIC), last-in-chain (LIC), middle-in-chain (MIC) or only-in-chain (OIC). Response units and expedited flow request units are always sent as OIC.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-rvp",
+    "anchor": "term-rvp",
+    "term": "RVP",
+    "aliases": [],
+    "html": "RVP(Rendez-vous Protocol)\n<br />This assumes the protocol: \n<br />*source sends ready-to-send \n<br />*destination sends ready-to-receive \n<br />*data is exchanged \n<br />\n<br />Data is never buffered, although ready-to-send messages may be. This protocol is likely to be more efficient for long messages, because it eliminates the need to copy data from input-buffer to user space. A ready-to-receive message can include an identifier for the request object at the receiving end. The sending end can reflect this id in the header of the data packet, allowing the input handler at the receiving end to retrieve the relevant request when the data arrives. ",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-s-http",
+    "anchor": "term-s-http",
+    "term": "S-HTTP",
+    "aliases": [],
+    "html": "An extension to the HTTP protocol to support sending data securely over the World Wide Web. Not all Web browsers and servers support S-HTTP. Another technology for transmitting secure communications over the World Wide Web -- Secure Sockets Layer (SSL) -- is more prevalent. However, SSL and S-HTTP have very different designs and goals so it is possible to use the two protocols together. Whereas SSL is designed to establish a secure connection between two computers, S-HTTP is designed to send individual messages securely. Both protocols have been submitted to the Internet Engineering Task Force (IETF) for approval as a standard.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-sap",
+    "anchor": "term-sap",
+    "term": "SAP",
+    "aliases": [],
+    "html": "SAP (Session Announcement Protocol) is an announcement protocol that is used to assist the advertisement of multicast multimedia conferences and other multicast sessions, and to communicate the relevant session setup information to prospective participants.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-script",
+    "anchor": "term-script",
+    "term": "Script",
+    "aliases": [],
+    "html": "Script is another term for macro or batch file, a script is a list of commands that can be executed without user interaction. A script language is a simple programming language with which you can write scripts. \n<br />\n<br />Apple Computer uses the term script to refer to programs written in its HyperCard or AppleScript language.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-sdp",
+    "anchor": "term-sdp",
+    "term": "SDP",
+    "aliases": [],
+    "html": "Session Description Protocol, a protocol that defines a text-based format for describing streaming media sessions and multicast transmissions. SDP is not a transport protocol but a method of describing the details of the transmission. For example, an SDP file contains information about the format, timing and authorship of the transmission, name and purpose of the session, any media, protocols or codec formats, the version number, contact information and broadcast times.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-server",
+    "anchor": "term-server",
+    "term": "Server",
+    "aliases": [],
+    "html": "A computer or device on a network that manages network resources. For example, a file server is a computer and storage device dedicated to storing files. Any user on the network can store files on the server. A database server is a computer system that processes database queries. Servers are often dedicated, meaning that they perform no other tasks besides their server tasks. On multiprocessing operating systems, however, a single computer can execute several programs at once. A server in this case could refer to the program that is managing resources rather than the entire computer.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-sgsn",
+    "anchor": "term-sgsn",
+    "term": "SGSN",
+    "aliases": [],
+    "html": "The SGSN (Serving GPRS Support Node) is the node which in some sense carries out the same function as the Local Agent in Mobile IP. However, an SGSN is actually considerably more complex since it also does the full set of interworking with the connected radio network. This means that the functions carried out by the SGSN vary quite considerably between GSM and UMTS.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-shared-secret-key",
+    "anchor": "term-shared-secret-key",
+    "term": "Shared secret key",
+    "aliases": [],
+    "html": "Shared secret key - Secret and private are often used interchangeably in the literature. In our usage, it takes two (or more) to share a secret, thus a shared DES key is a secret key. Something is only private when no one but its owner knows it. Thus, in public key cryptosystems, one has a public and a private key.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-sip",
+    "anchor": "term-sip",
+    "term": "SIP",
+    "aliases": [],
+    "html": "Session Initiated Protocol (SIP) is an application-layer control protocol; a signaling protocol for Internet Telephony. SIP can establish sessions for features such as audio/videoconferencing, interactive gaming, and call forwarding to be deployed over IP networks, thus enabling service providers to integrate basic IP telephony services with Web, e-mail, and chat services.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-slp",
+    "anchor": "term-slp",
+    "term": "SLP",
+    "aliases": [],
+    "html": "Service Location Protocol (SLP) was originally an Internet Engineering Task Force (IETF) standards track protocol that provides a framework to allow networking applications to discover the existence, location, and configuration of networked services in enterprise networks. Traditionally, in order to locate services on the network, users of network applications have been required to supply the host name or network address of the machine that provides a desired service. SLP can eliminate the need for users to know the names of network hosts. With SLP, the user only needs to know the description of the service he is interested in. Based on this description, SLP is then able to return the URL of the desired service.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-smtp",
+    "anchor": "term-smtp",
+    "term": "SMTP",
+    "aliases": [],
+    "html": "SMTP (Simple Mail Transfer Protocol) is a  protocol for sending e-mail messages between servers. Most e-mail systems that send mail over the Internet use SMTP to send messages from one server to another; the messages can then be retrieved with an e-mail client using either POP or IMAP. In addition, SMTP is generally used to send messages from a mail client to a mail server. This is why you need to specify both the POP or IMAP server and the SMTP server when you configure your e-mail application.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-snmp",
+    "anchor": "term-snmp",
+    "term": "SNMP",
+    "aliases": [],
+    "html": "SNMP (Simple Network Management Protocol) is a set of protocols for managing complex networks. The first versions of SNMP were developed in the early 80s. SNMP works by sending messages, called protocol data units (PDUs), to different parts of a network. SNMP-compliant devices, called agents, store data about themselves in Management Information Bases (MIBs) and return this data to the SNMP requesters.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-source-quench",
+    "anchor": "term-source-quench",
+    "term": "Source Quench",
+    "aliases": [],
+    "html": "This message is a request to decrease the traffic rate of data messages sent to an internet destination. \n<br />\n<br />If a gateway discards a datagram, it may send a source quench message to the internet source host of the datagram.  A destination host may also send a source quench message if datagrams arrive too fast to be processed.  The source quench message is a request to the host to cut back the rate at which it is sending traffic to the internet destination.  The gateway may send a source quench message for every message that it discards.  On receipt of a source quench message, the source host should cut back the rate at which it is sending traffic to the specified destination until it no longer receives source quench messages from the gateway.  The source host can then gradually increase the rate at which it sends traffic to the destination until it again receives source quench messages.\n<br />\n<br />The gateway or host may send the source quench message when it approaches its capacity limit rather than waiting until the capacity is exceeded. Code 0 may be received from a gateway or a host.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-spxii",
+    "anchor": "term-spxii",
+    "term": "SPXII",
+    "aliases": [],
+    "html": "SPXII(Sequenced Packet Exchange) is an improvement on SPX that allows better performance on larger bandwidth networks.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-sql",
+    "anchor": "term-sql",
+    "term": "SQL",
+    "aliases": [],
+    "html": "SQL (Structured Query Language) is the most popular computer language used to create, modify and retrieve data from relational database management systems. The language has evolved beyond its original purpose to support object-relational database management systems. It is an ANSI/ISO standard.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-ssm",
+    "anchor": "term-ssm",
+    "term": "SSM",
+    "aliases": [],
+    "html": "SSM (Source Specific Multicast) feature is an extension of IP multicast where datagram traffic is forwarded to receivers from only those multicast sources to which the receivers have explicitly joined.\n<br />\n<br />An SSM destination address range already exists for IPv6. A source S transmits IP datagrams to an SSM destination address G. A receiver can receive these datagrams by subscribing to the channel (Source, Group) or (S,G).",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-stream",
+    "anchor": "term-stream",
+    "term": "Stream",
+    "aliases": [],
+    "html": "Stream is a uni-directional logical channel established from one to another associated SCTP endpoint, within which all user messages are delivered in sequence except for those submitted to the unordered delivery service.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-sub-session-key",
+    "anchor": "term-sub-session-key",
+    "term": "Sub-session key",
+    "aliases": [],
+    "html": "Sub-session key is a temporary encryption key used between two principals, selected and exchanged by the principals using the session key, and with a lifetime limited to the duration of a single association. The sub-session key is also referred to as the subkey.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-switch",
+    "anchor": "term-switch",
+    "term": "Switch",
+    "aliases": [],
+    "html": "In networks, switch is a device that filters and forwards packets between LAN segments. Switches operate at the data link layer (layer 2) and sometimes the network layer (layer 3) of the OSI Reference Model and therefore support any packet protocol.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-sybase-sql-server",
+    "anchor": "term-sybase-sql-server",
+    "term": "Sybase SQL Server",
+    "aliases": [],
+    "html": "Sybase SQL Server was the name of Sybase Corporation's primary relational database management system product from 1987 to 1995. It was originally created for UNIX platforms in 1987. In 1988, SQL Server for OS/2 was codeveloped for the PC by Sybase, Microsoft, and Ashton-Tate. Ashton-Tate divested its interest and Microsoft became the lead partner after porting SQL Server to Windows NT.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-t-sql",
+    "anchor": "term-t-sql",
+    "term": "T-SQL",
+    "aliases": [],
+    "html": "T-SQL （Transact-SQL） is Microsoft's and Sybase's proprietary extension to the SQL language. In order to make it more powerful, SQL has been enhanced with additional features such as:\n<br />*Control-of-flow language \n<br />*Local variables \n<br />*User authentication integrated with Microsoft Windows \n<br />*Various support functions for string processing, date processing, mathematics",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-t-120",
+    "anchor": "term-t-120",
+    "term": "T.120",
+    "aliases": [],
+    "html": "T.120 is a comprehensive specification that solves several troublesome problems that have historically slowed market growth for applications of this nature. Perhaps most importantly, T.120 resolves complex technological issues in a manner that is acceptable to both the computing and telecommunications industries.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-tag",
+    "anchor": "term-tag",
+    "term": "Tag",
+    "aliases": [],
+    "html": "(n) A command inserted in a document that specifies how the document, or a portion of the document, should be formatted. Tags are used by all format specifications that store documents as text files. This includes SGML and HTML. \n<br />\n<br />(v) To mark a section of a document with a formatting command.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-tcp-ip",
+    "anchor": "term-tcp-ip",
+    "term": "TCP/IP",
+    "aliases": [],
+    "html": "TCP/IP(transmission Control Protocol/Internet Protocol) is the suite of communications protocols used to connect hosts on the Internet. TCP/IP uses several protocols, the two main ones being TCP and IP. TCP/IP is built into the UNIX operating system and is used by the Internet, making it the de facto standard for transmitting data over networks. Even network operating systems that have their own protocols, such as Netware, also support TCP/IP.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-tdm",
+    "anchor": "term-tdm",
+    "term": "TDM",
+    "aliases": [],
+    "html": "Time Division Multiplexing, a type of multiplexing that combines data streams by assigning each stream a different time slot in a set. TDM repeatedly transmits a fixed sequence of time slots over a single transmission channel. Within T-Carrier systems, such as T-1 and T-3, TDM combines Pulse Code Modulated (PCM) streams created for each conversation or data stream.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-terminal",
+    "anchor": "term-terminal",
+    "term": "Terminal",
+    "aliases": [],
+    "html": "Terminal is a device that enables you to communicate with a computer. Generally, a terminal is a combination of keyboard and display screen. In networking, a terminal is a personal computer or workstation connected to a mainframe. The personal computer usually runs terminal emulation software that makes the mainframe think it is like any other mainframe terminal.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-tftp",
+    "anchor": "term-tftp",
+    "term": "TFTP",
+    "aliases": [],
+    "html": "TFTP(Trivial File Transfer Protocol) is a simple form of the File Transfer Protocol (FTP). TFTP uses the User Datagram Protocol (UDP)and provides no security features. It is often used by servers to boot diskless workstations, X-terminals, and routers. ",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-threedegrees",
+    "anchor": "term-threedegrees",
+    "term": "Threedegrees",
+    "aliases": [],
+    "html": "threedegrees or 3° (frequently referred to as Three Degrees) was a communication and P2P application produced by Microsoft. It allows you to sign in using a Microsoft .NET Passport and integrates into MSN Messenger.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-timeout",
+    "anchor": "term-timeout",
+    "term": "Timeout",
+    "aliases": [],
+    "html": "An interrupt signal generated by a program or device that has waited a certain length of time for some input but has not received it. Many programs perform time-outs so that the program does not sit idle waiting for input that may never come. For example, automatic bank-teller machines perform a time-out if you do not enter your password quickly enough.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-tls",
+    "anchor": "term-tls",
+    "term": "TLS",
+    "aliases": [],
+    "html": "TLS (Transport Layer Security), made up of two layers: the TLS Record Protocol and TLS Handshake Protocol, is a protocol that guarantees privacy and data integrity between client/server applications communicating over the Internet. TLS is application protocol-independent. Higher-level protocols can layer on top of the TLS protocol transparently.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-totalnet-advanced-server",
+    "anchor": "term-totalnet-advanced-server",
+    "term": "TotalNET Advanced Server",
+    "aliases": [],
+    "html": "TotalNET Advanced Server This product is from Syntax is a completely independently written SMB server, that was perhaps the first SMB server for UNIX. These days, it comes with additional modules providing AppleShare and NetWare serving all in the one product.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-traceroute",
+    "anchor": "term-traceroute",
+    "term": "TraceRoute",
+    "aliases": [],
+    "html": "A utility that traces a packet from your computer to an Internet host, showing how many hops the packet requires to reach the host and how long each hop takes. If you're visiting a Web site and pages are appearing slowly, you can use traceroute to figure out where the longest delays are occurring. \n<br />The original traceroute is a UNIX utility, but nearly all platforms have something similar. Windows includes a traceroute utility called tracert. In Windows, you can run tracert by selecting Start-&gt;Run…, and then entering tracert followed by the domain name of the host. \n<br />\n<br />For example: tracert www.pcwebopedia.com \n<br />\n<br />Traceroute utilities work by sending packets with low time-to-live (TTL) fields. The TTL value specifies how many hops the packet is allowed before it is returned. When a packet can't reach its destination because the TTL value is too low, the last host returns the packet and identifies itself. By sending a series of packets and incrementing the TTL value with each successive packet, traceroute finds out who all the intermediary hosts are.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-tsn",
+    "anchor": "term-tsn",
+    "term": "TSN",
+    "aliases": [],
+    "html": "Transmission Sequence Number (TSN) is a 32-bit sequence number used internally by SCTP. One TSN is attached to each chunk containing user data to permit the receiving SCTP endpoint to acknowledge its receipt and detect duplicate deliveries.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-ttl",
+    "anchor": "term-ttl",
+    "term": "TTL",
+    "aliases": [],
+    "html": "TTL (Time to Live) is a field in the Internet Protocol (IP) that specifies how many more hops a packet can travel before being discarded or returned.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-tunnel",
+    "anchor": "term-tunnel",
+    "term": "Tunnel",
+    "aliases": [],
+    "html": "A tunnel is defined by a PNS-PAC pair. The tunnel protocol is defined by a modified version of GRE. The tunnel carries PPP datagrams between the PAC and the PNS. Many sessions are multiplexed on a single tunnel. A control connection operating over TCP controls the establishment, release, and maintenance of sessions and of the tunnel itself.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-type",
+    "anchor": "term-type",
+    "term": "Type",
+    "aliases": [],
+    "html": "The data representation type used for data transfer and storage. Type implies certain transformations between the time of data storage and data transfer. The representation types defined in FTP are described in the Section on Establishing Data Connections.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-ua",
+    "anchor": "term-ua",
+    "term": "UA",
+    "aliases": [],
+    "html": "User Agent (UA) is a process working on the user's behalf to acquire service attributes and configuration. The User Agent retrieves service information from the Service Agents or Directory Agents.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-udp",
+    "anchor": "term-udp",
+    "term": "UDP",
+    "aliases": [],
+    "html": "UDP (User Datagram Protocol) is a connectionless protocol that, like TCP, runs on top of IP networks. Unlike TCP/IP, UDP/IP provides very few error recovery services, offering instead a direct way to send and receive datagrams over an IP network. It's used primarily for broadcasting messages over a network.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-umts",
+    "anchor": "term-umts",
+    "term": "UMTS",
+    "aliases": [],
+    "html": "UMTS (Universal Mobile Telecommunications System) is one of the third-generation (3G) mobile phone technologies. It uses W-CDMA as the underlying standard, is standardized by the 3GPP, and represents the European/Japanese answer to the ITU IMT-2000 requirements for 3G Cellular radio systems.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-unicast",
+    "anchor": "term-unicast",
+    "term": "Unicast",
+    "aliases": [],
+    "html": "Unicast is a communication that takes place over a network between a single sender and a single receiver.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-upnp",
+    "anchor": "term-upnp",
+    "term": "UPnP",
+    "aliases": [],
+    "html": "UPnP (Universal Plug and Play) is a set of computer network protocols promulgated by the UPnP Forum. The goals of UPnP are to allow devices to connect seamlessly and to simplify the implementation of networks in the home and corporate environments.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-uri",
+    "anchor": "term-uri",
+    "term": "URI",
+    "aliases": [],
+    "html": "URI (Uniform Resource Identifier) is the generic term for all types of names and addresses that refer to objects on the World Wide Web. A URL is one kind of URI.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-usenet-news-system",
+    "anchor": "term-usenet-news-system",
+    "term": "USENET News System",
+    "aliases": [],
+    "html": "In the UNIX world the USENET News system provides a method of a worthwhile reduction of the amount of these resources used can be achieved if articles are stored in a central database on the receiving host instead of in each subscriber's mailbox. There is a central repository of the news articles in one place (customarily a spool directory of some sort), and a set of programs that allow a subscriber to select those items he wishes to read. Indexing, cross-referencing, and expiration of aged messages are also provided.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-utf-8",
+    "anchor": "term-utf-8",
+    "term": "UTF-8",
+    "aliases": [],
+    "html": "UTF(Unicode Transformation Format) preserving the full US-ASCII range, providing compatibility with file systems, parsers and other software that rely on US-ASCII values but are transparent to other values. \n<br />\n<br />UTF-8 encodes UCS-2 or UCS-4 characters as a varying number of octets, where the number of octets, and the value of each, depend on the integer value assigned to the character in ISO/IEC 10646.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-uucp",
+    "anchor": "term-uucp",
+    "term": "UUCP",
+    "aliases": [],
+    "html": "UUCP (UNIX-to-UNIX Copy Program) is a Unix utility and protocol that enables one computer to send files to another computer over a direct serial connection or via modems and the telephone system. For most file transfer applications, UUCP has been superseded by other protocols, such as FTP, SMTP and NNTP.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-vendor-lock-in",
+    "anchor": "term-vendor-lock-in",
+    "term": "Vendor lock-in",
+    "aliases": [],
+    "html": "In economics, vendor lock-in, also known as proprietary lock-in, lock-in, or the Pottersville pattern, is a situation in which a customer is dependent on a vendor for products and services and cannot move to another vendor without substantial switching costs, real and/or perceived.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-virtual-terminal",
+    "anchor": "term-virtual-terminal",
+    "term": "Virtual Terminal",
+    "aliases": [],
+    "html": "Virtual Terminal allows you to manually process credit card transactions from any computer with an Internet connection in the world. You simply login to a secure website with a login and password and you are able to charge cards, perform authorizations, and even process credits. In addition, you have complete online reporting of all your transactions and orders.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-vlan",
+    "anchor": "term-vlan",
+    "term": "VLAN",
+    "aliases": [],
+    "html": "Virtual LAN (VLAN) is a network of computers that behave as if they are connected to the same wire even though they may actually be physically located on different segments of a LAN. VLANs are configured through software rather than hardware, which makes them extremely flexible. One of the biggest advantages of VLANs is that when a computer is physically moved to another location, it can stay on the same VLAN without any hardware reconfiguration.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-vms",
+    "anchor": "term-vms",
+    "term": "VMS",
+    "aliases": [],
+    "html": "VMS (Virtual Memory System) is a multi-user, multitasking, virtual memory operating system that runs on DEC's VAX and Alpha lines of minicomputers and workstations.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-voip",
+    "anchor": "term-voip",
+    "term": "VOIP",
+    "aliases": [],
+    "html": "Voice over Internet Protocol, a category of hardware and software that enables people to use the Internet as the transmission medium for telephone calls by sending voice data in packets using IP rather than by traditional circuit transmissions of the PSTN. One advantage of VoIP is that the telephone calls over the Internet do not incur a surcharge beyond what the user is paying for Internet access, much in the same way that the user doesn't pay for sending individual e-mails over the Internet.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-vpn",
+    "anchor": "term-vpn",
+    "term": "VPN",
+    "aliases": [],
+    "html": "VPN (virtual private network), a network that is constructed by using public wires to connect nodes. For example, there are a number of systems that enable you to create networks using the Internet as the medium for transporting data. These systems use encryption and other security mechanisms to ensure that only authorized users can access the network and that the data cannot be intercepted.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-vr",
+    "anchor": "term-vr",
+    "term": "VR",
+    "aliases": [],
+    "html": "Virtual reality (VR) is an environment that is simulated by a computer. Most virtual reality environments are primarily visual experiences, displayed either on a computer screen or through special stereoscopic displays, but some simulations include additional sensory information, such as sound through speakers or headphones. Some advanced and experimental systems have included limited tactile feedback.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-wais",
+    "anchor": "term-wais",
+    "term": "WAIS",
+    "aliases": [],
+    "html": "WAIS (Wide Area Information Server) is an Internet system in which specialized subject databases are created at multiple server locations, kept track of by a directory of servers at one location, and made accessible for searching by users with WAIS client programs. The user of WAIS is provided with or obtains a list of distributed databases. The user enters a search argument for a selected database and the client then accesses all the servers on which the database is distributed. The results provide a description of each text that meets the search requirements. The user can then retrieve the full text.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-web",
+    "anchor": "term-web",
+    "term": "Web",
+    "aliases": [],
+    "html": "A set of nodes interconnected by links .",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-wf-style",
+    "anchor": "term-wf-style",
+    "term": "WF style",
+    "aliases": [],
+    "html": "WF style (Wildcard Filter reservation style) has wildcard sender selection and shared attributes.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-whois",
+    "anchor": "term-whois",
+    "term": "WhoIs",
+    "aliases": [],
+    "html": "WhoIs is an Internet utility that returns information about a domain name or IP address. For example, if you enter a domain name such as microsoft.com, whois will return the name and address of the domain's owner (in this case, Microsoft Corporation).",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-windows",
+    "anchor": "term-windows",
+    "term": "Windows",
+    "aliases": [],
+    "html": "Windows (Microsoft Windows) is a family of operating systems for personal computers. Windows dominates the personal computer world, running, by some estimates, on 90% of all personal computers. The remaining 10% are mostly Macintosh computers. Like the Macintosh operating environment, Windows provides a graphical user interface (GUI), virtual memory management, multitasking, and support for many peripheral devices.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-workstation",
+    "anchor": "term-workstation",
+    "term": "Workstation",
+    "aliases": [],
+    "html": "*A type of computer used for engineering applications (CAD/CAM), desktop publishing, software development, and other types of applications that require a moderate amount of computing power and relatively high quality graphics capabilities.\n<br />\n<br />* In networking, workstation refers to any computer connected to a local-area network. It could be a workstation or a personal computer.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-www",
+    "anchor": "term-www",
+    "term": "WWW",
+    "aliases": [],
+    "html": "WWW(World Wide Web) is a system of Internet servers that support specially formatted documents. The documents are formatted in a markup language called HTML (HyperText Markup Language) that supports links to other documents, as well as graphics, audio, and video files. There are several applications called Web browsers that make it easy to access the World Wide Web; Two of the most popular being Netscape Navigator and Microsoft's Internet Explorer.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-x-windows",
+    "anchor": "term-x-windows",
+    "term": "X Windows",
+    "aliases": [],
+    "html": "X Window System (commonly X11 or X) is a windowing system for bitmap displays. It is the standard graphical interface on Unix, Unix-like operating systems and OpenVMS, and is available for most other modern operating systems.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-x-500",
+    "anchor": "term-x-500",
+    "term": "X.500",
+    "aliases": [],
+    "html": "X500 is an ISO and ITU standard that defines how global directories should be structured. X.500 directories are hierarchical with different levels for each category of information, such as country, state, and city. X.500 supports X.400 systems.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-xdr",
+    "anchor": "term-xdr",
+    "term": "XDR",
+    "aliases": [],
+    "html": "XDR (eXternal Data Representation) is a standard for the description and encoding of data. It is useful for transferring data between different computer architectures, and has been used to communicate data between such diverse machines as the SUN WORKSTATION*, VAX*, IBM-PC*, and Cray*.\n<br />\n<br />XDR uses a language to describe data formats. The language can only be used only to describe data; it is not a programming language. This language allows one to describe intricate data formats in a concise manner.\n<br />\n<br />The XDR standard makes the following assumption: that bytes (or octets) are portable, where a byte is defined to be 8 bits of data. A given hardware device should encode the bytes onto the various media in such a way that other hardware devices may decode the bytes without loss of meaning.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-xerox-parc",
+    "anchor": "term-xerox-parc",
+    "term": "Xerox PARC",
+    "aliases": [],
+    "html": "Xerox Palo Alto Research Center (PARC) was a flagship research division of the Xerox Corporation, based in Palo Alto, California, USA. It was founded in 1970, and spun out as a separate company in 2002. It is best known for essentially creating the modern personal computer graphical user interface (GUI) paradigm.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-xns",
+    "anchor": "term-xns",
+    "term": "XNS",
+    "aliases": [],
+    "html": "XNS (Xerox Network Services) was a protocol suite promulgated by Xerox, which provided routing and packet delivery, as well as higher level functions such as a reliable stream, and remote procedure calls.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-xon",
+    "anchor": "term-xon",
+    "term": "XON",
+    "aliases": [],
+    "html": "Xon/Xoff (sometimes written \"X-on/X-off\" or \"XON/XOFF\") is a protocol for controlling the flow of data between computers and other devices on an asynchronous serial connection. For example, a computer typically sends data to a printer faster than the printer can print. The printer contains a buffer where data is stored until the printer catches up with the computer.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  },
+  {
+    "id": "term-zone",
+    "anchor": "term-zone",
+    "term": "Zone",
+    "aliases": [],
+    "html": "A part of the DNS tree, that is treated as a unit.",
+    "origin": "historical",
+    "provenance": {
+      "source": "glossary.htm",
+      "sha256": "7b0c5263e4ea3f0cf7082231d2bdb8827d6dfd597537253b9e54e4e33109f0e9",
+      "provider": "Colasoft Co., Ltd."
+    },
+    "related": []
+  }
+]
