@@ -1,0 +1,119 @@
+---
+import Layout from "../layouts/Layout.astro";
+import { collections, rewriteBase } from "../lib/content.mjs";
+import { base, url } from "../lib/urls.mjs";
+const { glossary, protocols } = collections();
+const group = (term: string) =>
+  /^\d/.test(term) ? "0–9" : term[0].toUpperCase();
+const groups = [...new Set(glossary.map((g) => group(g.term)))].sort();
+const groupId = (g: string) => (g === "0–9" ? "0-9" : g.toLowerCase());
+---
+
+<Layout title="Glossary" section="Glossary">
+  <div class="page-heading">
+    <p class="breadcrumb">
+      <a href={url()}>Home</a> / Glossary
+    </p>
+    <h1>Glossary</h1>
+    <p class="lead">
+      The language of network analysis. {glossary.length} preserved definitions
+      with stable links.
+    </p>
+  </div>
+  <form id="glossary-filter" class="filters" hidden>
+    <label for="term-filter">
+      Filter terms and aliases
+      <input id="term-filter" type="search" placeholder="Enter a term" />
+    </label>
+    <button type="reset">Clear filter</button>
+  </form>
+  <p id="glossary-count" role="status">
+    {glossary.length} definitions
+  </p>
+  <nav class="letter-nav" aria-label="Glossary letters">
+    {groups.map((g) => (
+      <a href={"#group-" + groupId(g)}>{g}</a>
+    ))}
+  </nav>
+  <div id="glossary-entries">
+    {groups.map((letter) => (
+      <section
+        class="glossary-group"
+        aria-labelledby={"group-" + groupId(letter)}
+      >
+        <h2 id={"group-" + groupId(letter)}>{letter}</h2>
+        <dl>
+          {glossary
+            .filter((g) => group(g.term) === letter)
+            .sort((a, b) => a.term.localeCompare(b.term))
+            .map((g) => (
+              <div
+                class="definition"
+                id={g.anchor}
+                data-term={[g.term, ...g.aliases].join(" ").toLowerCase()}
+              >
+                <dt>
+                  <a href={"#" + g.anchor}>{g.term}</a>
+                </dt>
+                <dd class="article">
+                  <Fragment set:html={rewriteBase(g.html, base)} />
+                  {protocols.filter(
+                    (p) =>
+                      p.glossary.includes(g.id) || g.related.includes(p.id),
+                  ).length > 0 && (
+                    <p class="meta">
+                      Related protocols:{" "}
+                      {protocols
+                        .filter(
+                          (p) =>
+                            p.glossary.includes(g.id) ||
+                            g.related.includes(p.id),
+                        )
+                        .map((p, i) => (
+                          <>
+                            {i > 0 ? ", " : ""}
+                            <a href={url(`protocols/${p.slug}/`)}>{p.name}</a>
+                          </>
+                        ))}
+                    </p>
+                  )}
+                </dd>
+              </div>
+            ))}
+        </dl>
+      </section>
+    ))}
+  </div>
+  <p id="glossary-empty" hidden>
+    No terms match. Clear the filter to see all definitions.
+  </p>
+  <script>
+    const form = document.querySelector<HTMLFormElement>("#glossary-filter")!;
+    form.hidden = false;
+    const input = document.querySelector<HTMLInputElement>("#term-filter")!;
+    const entries = [...document.querySelectorAll<HTMLElement>(".definition")];
+    function update() {
+      const q = input.value.trim().toLowerCase();
+      let count = 0;
+      for (const entry of entries) {
+        entry.hidden = !entry.dataset.term!.includes(q);
+        if (!entry.hidden) count++;
+      }
+      document
+        .querySelectorAll<HTMLElement>(".glossary-group")
+        .forEach(
+          (g) =>
+            (g.hidden = ![
+              ...g.querySelectorAll<HTMLElement>(".definition"),
+            ].some((e) => !e.hidden)),
+        );
+      document.querySelector("#glossary-count")!.textContent =
+        `${count} of ${entries.length} definitions`;
+      document.querySelector<HTMLElement>("#glossary-empty")!.hidden =
+        count > 0;
+    }
+    input.addEventListener("input", update);
+    form.addEventListener("submit", (e) => e.preventDefault());
+    form.addEventListener("reset", () => setTimeout(update));
+  </script>
+</Layout>

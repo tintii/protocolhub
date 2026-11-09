@@ -1,0 +1,93 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Icon from "../components/Icon.astro";
+import PacketPreview from "../components/PacketPreview.astro";
+import { collections } from "../lib/content.mjs";
+import { url } from "../lib/urls.mjs";
+const { protocols, glossary, rfcs } = collections();
+---
+
+<Layout title="Protocolhub">
+  <section class="hero">
+    <div class="hero-copy">
+      <p class="eyebrow">A field guide to network communication</p>
+      <h1>Protocolhub</h1>
+      <p class="lead">
+        From the first handshake to the last bit. Explore the protocols, packet
+        structures and terminology that make networks work.
+      </p>
+      <form data-search-form role="search" class="hero-search" method="get">
+        <label for="home-query">Look something up</label>
+        <div class="search-input-row">
+          <input
+            id="home-query"
+            type="search"
+            name="q"
+            placeholder="TCP, flow control, RFC 793…"
+          />
+          <button class="primary" type="submit">
+            <Icon />
+            Search
+          </button>
+        </div>
+      </form>
+      <a class="browse-link" href={url("protocols/")}>
+        Browse all {protocols.length} protocols{" "}
+        <span aria-hidden="true">→</span>
+      </a>
+    </div>
+    <PacketPreview />
+  </section>
+  <section class="reference-sections" aria-labelledby="explore">
+    <div class="section-intro">
+      <h2 id="explore">Follow the reference</h2>
+      <p>
+        Read the protocol. Understand the terms.
+        <br />
+        Go straight to the source.
+      </p>
+    </div>
+    <div class="section-rows">
+      <a href={url("protocols/")}>
+        <span class="mono">01</span>
+        <div>
+          <h3>Protocols</h3>
+          <p>Headers, behavior, examples and relationships</p>
+        </div>
+        <span class="row-count">{protocols.length} articles →</span>
+      </a>
+      <a href={url("glossary/")}>
+        <span class="mono">02</span>
+        <div>
+          <h3>Glossary</h3>
+          <p>The language of network analysis, defined</p>
+        </div>
+        <span class="row-count">{glossary.length} definitions →</span>
+      </a>
+      <a href={url("rfcs/")}>
+        <span class="mono">03</span>
+        <div>
+          <h3>RFCs</h3>
+          <p>Searchable metadata with official document links</p>
+        </div>
+        <span class="row-count">
+          {rfcs.length.toLocaleString("en")} entries →
+        </span>
+      </a>
+    </div>
+  </section>
+  <section class="source-note">
+    <h2>Based off the original</h2>
+    <p>
+      Based on protocolbase.net, originally provided by{" "}
+      <strong>Colasoft Co., Ltd.</strong> This independent rebuild keeps the
+      historical articles, definitions and diagrams readable and searchable.
+      Original content © 2006–2007 Colasoft Co., Ltd. All rights reserved.
+    </p>
+    <p>
+      The source is historical. Technical wording and original update dates are
+      preserved; this project is not affiliated with or endorsed by the original
+      provider.
+    </p>
+  </section>
+</Layout>

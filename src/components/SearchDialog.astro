@@ -1,0 +1,60 @@
+---
+import Icon from "./Icon.astro";
+import { url } from "../lib/urls.mjs";
+---
+
+<dialog id="search-dialog" aria-labelledby="search-heading">
+  <div class="dialog-header">
+    <h2 id="search-heading">Search Protocolhub</h2>
+    <button id="search-close" type="button">
+      <Icon name="x" />
+      Close
+    </button>
+  </div>
+  <form id="search-form" role="search">
+    <label for="search-query">
+      Protocol, term, RFC number, title or author
+    </label>
+    <div class="search-input-row">
+      <input
+        id="search-query"
+        name="q"
+        type="search"
+        autocomplete="off"
+        autofocus
+      />
+      <button type="submit" class="primary">
+        <Icon />
+        Search
+      </button>
+    </div>
+    <label for="search-type">Reference type</label>
+    <select id="search-type" name="type">
+      <option value="all">All</option>
+      <option value="protocol">Protocols</option>
+      <option value="glossary">Glossary</option>
+      <option value="rfc">RFCs</option>
+    </select>
+  </form>
+  <p id="search-status" role="status" aria-live="polite">
+    Enter a protocol, term or RFC number
+  </p>
+  <button id="search-retry" type="button" hidden>
+    Retry search
+  </button>
+  <ol id="search-results" aria-label="Search results"></ol>
+  <nav class="pagination" aria-label="Search results pages">
+    <button id="search-prev" type="button" hidden>
+      Previous
+    </button>
+    <span id="search-page"></span>
+    <button id="search-next" type="button" hidden>
+      Next
+    </button>
+  </nav>
+  <p class="search-browse">
+    Browse <a href={url("protocols/")}>protocols</a>,{" "}
+    <a href={url("glossary/")}>glossary</a> or{" "}
+    <a href={url("rfcs/")}>RFC metadata</a>
+  </p>
+</dialog>

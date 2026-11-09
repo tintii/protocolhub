@@ -1,0 +1,9 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import RfcCatalog from "../../components/RfcCatalog.astro";
+import { rfcPath } from "../../lib/urls.mjs";
+---
+
+<Layout title="RFC catalog" section="RFCs" canonicalPath={rfcPath(0)}>
+  <RfcCatalog />
+</Layout>

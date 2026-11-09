@@ -1,0 +1,141 @@
+---
+import { collections } from "../lib/content.mjs";
+import { url, rfcPath } from "../lib/urls.mjs";
+interface Props {
+  order?: string;
+  page?: number;
+}
+const { order = "newest", page = 1 } = Astro.props;
+const { rfcs, snapshot, protocols, destinations } = collections();
+const sorted = [...rfcs].sort((a, b) =>
+  order === "oldest" ? a.number - b.number : b.number - a.number,
+);
+const total = Math.ceil(sorted.length / 100);
+const entries = sorted.slice((page - 1) * 100, page * 100);
+const other = order === "newest" ? "oldest" : "newest";
+---
+
+<div class="page-heading">
+  <p class="breadcrumb">
+    <a href={url()}>Home</a> / RFCs
+  </p>
+  <h1>RFCs</h1>
+  <p class="lead">
+    The documents behind the protocols. Search{" "}
+    {rfcs.length.toLocaleString("en")} RFC metadata records, then read the
+    authoritative document.
+  </p>
+  <p class="meta">
+    Snapshot: {snapshot.retrievedAt.slice(0, 10)} · Metadata and status at
+    capture time ·{" "}
+    <a href="https://www.rfc-editor.org/search/">Live RFC Editor search</a>
+  </p>
+</div>
+<form
+  data-search-form
+  data-type="rfc"
+  role="search"
+  class="catalog-search"
+  method="get"
+>
+  <label for="rfc-query">RFC number, title or author</label>
+  <div class="search-input-row">
+    <input
+      type="search"
+      id="rfc-query"
+      name="q"
+      placeholder="793 or Transmission Control Protocol"
+    />
+    <input type="hidden" name="type" value="rfc" />
+    <button type="submit" class="primary">
+      Search RFCs
+    </button>
+  </div>
+</form>
+<p class="meta">
+  Search covers metadata and available abstracts. Full RFC text stays at the RFC
+  Editor.
+</p>
+<div class="catalog-toolbar">
+  <p>
+    {order === "newest" ? "Newest" : "Oldest"} first · Page {page} of {total}
+  </p>
+  <a href={url(rfcPath(0, other))}>Browse {other} first</a>
+</div>
+<nav class="pagination" aria-label="RFC pages at top">
+  {page > 1 && <a href={url(rfcPath((page - 2) * 100, order))}>← Previous</a>}
+  <span>
+    Page {page} of {total}
+  </span>
+  {page < total && <a href={url(rfcPath(page * 100, order))}>Next →</a>}
+</nav>
+<ol class="rfc-list" start={(page - 1) * 100 + 1}>
+  {entries.map((r) => {
+    const backlinks = protocols.filter((p) => p.rfcs.includes(r.number));
+    return (
+      <li id={"rfc-" + r.number}>
+        <article aria-labelledby={"rfc-title-" + r.number}>
+          <div class="rfc-heading">
+            <a class="mono" href={url(destinations[r.number])}>
+              RFC {r.number}
+            </a>
+            <span class="meta">
+              {r.date} · {r.status}
+            </span>
+          </div>
+          <h2 id={"rfc-title-" + r.number}>{r.title}</h2>
+          <p class="meta">{r.authors.join(", ")}</p>
+          {r.abstract && (
+            <details>
+              <summary>Abstract</summary>
+              <p>{r.abstract}</p>
+            </details>
+          )}
+          {Object.entries(r.relations).map(([kind, docs]) => (
+            <p class="rfc-relations">
+              <span>{kind.replaceAll("-", " ")}: </span>
+              {(docs as string[]).map((doc, i) => {
+                const n = Number(doc.replace(/^RFC/, ""));
+                return (
+                  <>
+                    {i > 0 ? ", " : ""}
+                    {destinations[n] ? (
+                      <a href={url(destinations[n])}>{doc}</a>
+                    ) : (
+                      <a
+                        href={`https://www.rfc-editor.org/info/${doc.toLowerCase()}`}
+                      >
+                        {doc}
+                      </a>
+                    )}
+                  </>
+                );
+              })}
+            </p>
+          ))}
+          {backlinks.length > 0 && (
+            <p>
+              Referenced by:{" "}
+              {backlinks.map((p, i) => (
+                <>
+                  {i > 0 ? ", " : ""}
+                  <a href={url(`protocols/${p.slug}/`)}>{p.name}</a>
+                </>
+              ))}
+            </p>
+          )}
+          <a class="official-link" href={r.url}>
+            Open RFC {r.number} ↗
+          </a>
+        </article>
+      </li>
+    );
+  })}
+</ol>
+<nav class="pagination" aria-label="RFC pages at bottom">
+  {page > 1 && <a href={url(rfcPath((page - 2) * 100, order))}>← Previous</a>}
+  <span>
+    Page {page} of {total}
+  </span>
+  {page < total && <a href={url(rfcPath(page * 100, order))}>Next →</a>}
+</nav>

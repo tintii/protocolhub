@@ -1,0 +1,166 @@
+---
+import "../styles/global.css";
+import Icon from "../components/Icon.astro";
+import SearchDialog from "../components/SearchDialog.astro";
+import { base, url, canonical } from "../lib/urls.mjs";
+interface Props {
+  title: string;
+  description?: string;
+  section?: string;
+  canonicalPath?: string;
+}
+const {
+  title,
+  description = "A preserved networking reference: protocols, terminology, packet structures, and RFC metadata.",
+  section = "Home",
+  canonicalPath,
+} = Astro.props;
+const nav = [
+  ["Home", ""],
+  ["Protocols", "protocols/"],
+  ["Glossary", "glossary/"],
+  ["RFCs", "rfcs/"],
+];
+const currentPath = Astro.url.pathname.replace(base, "");
+---
+
+<!doctype html>
+<html lang="en" data-base={base}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="description" content={description} />
+    <title>{title === "Protocolhub" ? title : `${title} · Protocolhub`}</title>
+    <link rel="canonical" href={canonical(canonicalPath ?? currentPath)} />
+    <link rel="icon" type="image/svg+xml" href={url("favicon.svg")} />
+    <meta name="theme-color" content="#fafafa" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">
+      Skip to content
+    </a>
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="wordmark" href={url()}>
+          Protocolhub<span class="wordmark-note">Network reference</span>
+        </a>
+        <nav class="desktop-nav" aria-label="Primary">
+          {nav.map(([label, path]) => (
+            <a
+              href={url(path)}
+              aria-current={section === label ? "page" : undefined}
+            >
+              {label}
+            </a>
+          ))}
+        </nav>
+        <div class="header-actions">
+          <button type="button" data-search class="header-search">
+            <Icon />
+            Search<kbd aria-hidden="true">⌘ K</kbd>
+          </button>
+          <details class="mobile-menu">
+            <summary aria-label="Menu">
+              <Icon name="menu" />
+              <span>Menu</span>
+            </summary>
+            <nav aria-label="Mobile primary">
+              {nav.map(([label, path]) => (
+                <a
+                  href={url(path)}
+                  aria-current={section === label ? "page" : undefined}
+                >
+                  {label}
+                </a>
+              ))}
+            </nav>
+          </details>
+        </div>
+      </div>
+    </header>
+    <main id="main" class="container" tabindex="-1">
+      <slot />
+    </main>
+    <footer class="site-footer container">
+      <div>
+        <a class="wordmark" href={url()}>
+          Protocolhub
+        </a>
+        <p>
+          Original Protocolbase content © 2006–2007 Colasoft Co., Ltd.
+          <br />
+          All rights reserved.
+        </p>
+      </div>
+      <div>
+        <p>
+          Based on protocolbase.net, originally provided by Colasoft Co., Ltd.
+        </p>
+        <p>
+          An independent rebuild preserving historical reference material.
+          <br />
+          Source dates and technical statements are retained as written.
+        </p>
+      </div>
+    </footer>
+    <SearchDialog />
+    <noscript>
+      <div class="noscript container">
+        Search and local filters require JavaScript. All reference content is
+        available through <a href={url("protocols/")}>Protocols</a>,{" "}
+        <a href={url("glossary/")}>Glossary</a> and{" "}
+        <a href={url("rfcs/")}>RFCs</a>.
+      </div>
+    </noscript>
+    <script>
+      const activate = async (
+        trigger: HTMLElement | null,
+        query = "",
+        type = "all",
+      ) => {
+        const { openSearch } = await import("../lib/search");
+        openSearch(trigger, query, type);
+      };
+      document
+        .querySelectorAll<HTMLButtonElement>("[data-search]")
+        .forEach((button) =>
+          button.addEventListener(
+            "click",
+            () => void activate(button, "", button.dataset.type || "all"),
+          ),
+        );
+      document
+        .querySelectorAll<HTMLFormElement>("[data-search-form]")
+        .forEach((form) =>
+          form.addEventListener("submit", (event) => {
+            event.preventDefault();
+            void activate(
+              form.querySelector("button"),
+              String(new FormData(form).get("q") || ""),
+              form.dataset.type || "all",
+            );
+          }),
+        );
+      document.addEventListener("keydown", (event) => {
+        if (
+          (event.ctrlKey || event.metaKey) &&
+          event.key.toLowerCase() === "k" &&
+          !(
+            event.target instanceof Element &&
+            event.target.closest("input,textarea,select,[contenteditable]")
+          )
+        ) {
+          event.preventDefault();
+          void activate(document.querySelector("[data-search]"));
+        }
+      });
+      const state = new URLSearchParams(location.search);
+      if (state.has("q"))
+        void activate(
+          document.querySelector("[data-search]"),
+          state.get("q") || "",
+          state.get("type") || "all",
+        );
+    </script>
+  </body>
+</html>

@@ -1,0 +1,153 @@
+---
+import type { Protocol } from "../../lib/content.mjs";
+interface Props {
+  protocol: Protocol;
+}
+import { getCollection } from "astro:content";
+import Layout from "../../layouts/Layout.astro";
+import { collections, relatedTo, rewriteBase } from "../../lib/content.mjs";
+import { base, url } from "../../lib/urls.mjs";
+export async function getStaticPaths() {
+  const entries = await getCollection("protocols");
+  const { protocols } = collections();
+  return entries.map((entry) => ({
+    params: { slug: entry.data.slug },
+    props: { protocol: protocols.find((p) => p.id === entry.id)! },
+  }));
+}
+const { protocol: p } = Astro.props;
+const { protocols, destinations, glossary } = collections();
+const related = relatedTo(p, protocols);
+const termLinks = glossary.filter(
+  (g) => p.glossary.includes(g.id) || g.related.includes(p.id),
+);
+---
+
+<Layout
+  title={`${p.name} — ${p.expandedName}`}
+  section="Protocols"
+  description={`${p.name}: ${p.expandedName}. Preserved protocol description, packet formats, examples and references.`}
+>
+  <p class="breadcrumb">
+    <a href={url()}>Home</a> / <a href={url("protocols/")}>Protocols</a> /{" "}
+    {p.name}
+  </p>
+  <header class="article-heading">
+    <p class="eyebrow">
+      {p.layers.join(" · ")}
+      {p.suites.length ? " / " + p.suites.join(" · ") : ""}
+    </p>
+    <h1>{p.name}</h1>
+    <p class="lead">{p.expandedName}</p>
+    <div class="provenance">
+      <p>
+        {p.origin === "historical"
+          ? "Historical Protocolbase article"
+          : "Contributed reference"}{" "}
+        · {p.provenance.provider}
+        {p.originalUpdate && (
+          <>
+            {" "}
+            · Source update: <span class="mono">{p.originalUpdate}</span>
+          </>
+        )}
+      </p>
+      <p>
+        Source:{" "}
+        {p.origin === "historical" ? (
+          <span>protocolbase.net/{p.provenance.source}</span>
+        ) : (
+          <a href={p.provenance.source}>{p.provenance.source}</a>
+        )}
+        {p.origin === "historical" &&
+          " · Independently preserved; original statements retained as written."}
+      </p>
+    </div>
+  </header>
+  <div class="article-layout">
+    <aside class="contents">
+      <details open>
+        <summary>On this page</summary>
+        <nav aria-label="Article contents">
+          <a href="#summary">Summary</a>
+          {p.sections.map((s) => (
+            <a href={"#" + s.id}>{s.title}</a>
+          ))}
+          {related.length > 0 && <a href="#related">Related protocols</a>}
+        </nav>
+      </details>
+    </aside>
+    <article class="article" data-pagefind-body>
+      <h2 class="sr-only" data-pagefind-meta="title">
+        {p.name} — {p.expandedName}
+      </h2>
+      <span
+        class="sr-only"
+        data-pagefind-meta="type"
+        data-pagefind-filter="type"
+      >
+        protocol
+      </span>
+      <p class="sr-only" data-pagefind-weight="10">
+        {p.name} {p.aliases.join(" ")}
+      </p>
+      <section aria-labelledby="summary">
+        <h2 id="summary">Summary</h2>
+        <dl class="summary-fields">
+          {p.summary.map((field) => (
+            <div>
+              <dt>{field.label}</dt>
+              <dd set:html={rewriteBase(field.html, base)} />
+            </div>
+          ))}
+        </dl>
+      </section>
+      <Fragment set:html={rewriteBase(p.html, base)} />
+      {p.editorialNotes.length > 0 && (
+        <section class="source-note">
+          <h2>Editorial notes</h2>
+          {p.editorialNotes.map((note) => (
+            <p>
+              {note.text} <a href={note.source}>Source</a> · {note.date}
+            </p>
+          ))}
+        </section>
+      )}
+      {p.rfcs.length > 0 && (
+        <section data-pagefind-ignore>
+          <h2>RFC catalog connections</h2>
+          <div class="inline-links">
+            {p.rfcs.map((n) => (
+              <a href={url(destinations[n])}>RFC {n}</a>
+            ))}
+          </div>
+        </section>
+      )}
+      {related.length > 0 && (
+        <section data-pagefind-ignore aria-labelledby="related">
+          <h2 id="related">Related protocols</h2>
+          <ul class="related-list">
+            {related.map((r) => (
+              <li>
+                <a href={url(`protocols/${r.slug}/`)}>{r.name}</a>{" "}
+                <span class="meta">{r.expandedName}</span>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
+      {termLinks.length > 0 && (
+        <section>
+          <h2>Glossary connections</h2>
+          <ul>
+            {termLinks.map((g) => (
+              <li>
+                <a href={url(`glossary/#${g.anchor}`)}>{g.term}</a>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
+    </article>
+  </div>
+</Layout>

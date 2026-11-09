@@ -1,0 +1,23 @@
+---
+import Layout from "../layouts/Layout.astro";
+import { url } from "../lib/urls.mjs";
+---
+
+<Layout title="Page not found">
+  <section class="page-heading">
+    <p class="mono">404</p>
+    <h1>This reference isn’t here</h1>
+    <p class="lead">
+      The address may have changed, or the original page may be outside this
+      preserved collection.
+    </p>
+    <p>
+      <a href={url("protocols/")}>Browse protocols</a> ·{" "}
+      <a href={url("glossary/")}>Open glossary</a> ·{" "}
+      <a href={url("rfcs/")}>Browse RFCs</a>
+    </p>
+    <button data-search type="button">
+      Search the reference
+    </button>
+  </section>
+</Layout>

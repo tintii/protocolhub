@@ -1,0 +1,89 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import { collections } from "../../lib/content.mjs";
+import { url } from "../../lib/urls.mjs";
+const { protocols } = collections();
+const layers = [...new Set(protocols.flatMap((p) => p.layers))].sort();
+const suites = [...new Set(protocols.flatMap((p) => p.suites))].sort();
+---
+
+<Layout title="Protocols" section="Protocols">
+  <div class="page-heading">
+    <p class="breadcrumb">
+      <a href={url()}>Home</a> / Protocols
+    </p>
+    <h1>Protocols</h1>
+    <p class="lead">
+      A closer look at how networks communicate. {protocols.length} preserved
+      protocol references, from AARP to ZIP.
+    </p>
+  </div>
+  <form id="directory-filters" class="filters" hidden>
+    <label>
+      Layer
+      <select name="layer">
+        <option value="">All layers</option>
+        {layers.map((layer) => (
+          <option>{layer}</option>
+        ))}
+      </select>
+    </label>
+    <label>
+      Suite
+      <select name="suite">
+        <option value="">All suites</option>
+        {suites.map((suite) => (
+          <option>{suite}</option>
+        ))}
+      </select>
+    </label>
+    <button type="reset">Reset filters</button>
+  </form>
+  <p id="directory-count" role="status">
+    {protocols.length} protocols
+  </p>
+  <ul class="protocol-list" id="directory">
+    {protocols.map((p) => (
+      <li
+        data-layer={JSON.stringify(p.layers)}
+        data-suite={JSON.stringify(p.suites)}
+      >
+        <a href={url(`protocols/${p.slug}/`)}>
+          <span class="protocol-name">{p.name}</span>
+          <span class="protocol-expanded">{p.expandedName}</span>
+          <span class="meta">
+            {p.layers.join(", ") || "Layer not specified"}
+          </span>
+          <span aria-hidden="true">→</span>
+        </a>
+      </li>
+    ))}
+  </ul>
+  <p id="directory-empty" hidden>
+    No protocols match these filters. Use Reset filters to see all protocols.
+  </p>
+  <script>
+    const form = document.querySelector<HTMLFormElement>("#directory-filters")!;
+    form.hidden = false;
+    const items = [...document.querySelectorAll<HTMLElement>("#directory>li")];
+    function update() {
+      const fields = new FormData(form);
+      const layer = String(fields.get("layer") || ""),
+        suite = String(fields.get("suite") || "");
+      let count = 0;
+      for (const item of items) {
+        const show =
+          (!layer || JSON.parse(item.dataset.layer!).includes(layer)) &&
+          (!suite || JSON.parse(item.dataset.suite!).includes(suite));
+        item.hidden = !show;
+        if (show) count++;
+      }
+      document.querySelector("#directory-count")!.textContent =
+        `${count} of ${items.length} protocols`;
+      document.querySelector<HTMLElement>("#directory-empty")!.hidden =
+        count > 0;
+    }
+    form.addEventListener("change", update);
+    form.addEventListener("reset", () => setTimeout(update));
+  </script>
+</Layout>

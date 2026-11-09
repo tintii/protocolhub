@@ -1,0 +1,57 @@
+---
+import { url } from "../lib/urls.mjs";
+---
+
+<figure class="packet-preview">
+  <figcaption>
+    <span>Inside the packet</span>
+    <a href={url("protocols/ipv6/#description")}>IPv6 header →</a>
+  </figcaption>
+  <div
+    class="packet-scroll"
+    role="region"
+    aria-label="IPv6 header diagram"
+    tabindex="0"
+  >
+    <div class="bit-ruler" aria-label="Bit boundaries 0, 4, 12, 16, 24, 32">
+      <span style="grid-column:1">0</span>
+      <span style="grid-column:5">4</span>
+      <span style="grid-column:13">12</span>
+      <span style="grid-column:17">16</span>
+      <span style="grid-column:25">24</span>
+      <span class="last">32</span>
+    </div>
+    <div class="packet-fields">
+      <div style="grid-column:span 4">
+        Version<span>6</span>
+      </div>
+      <div style="grid-column:span 8">
+        Traffic Class<span>8 bits</span>
+      </div>
+      <div style="grid-column:span 20">
+        Flow Label<span>20 bits</span>
+      </div>
+      <div style="grid-column:span 16">
+        Payload Length<span>16 bits</span>
+      </div>
+      <div style="grid-column:span 8">
+        Next Header<span>8 bits</span>
+      </div>
+      <div style="grid-column:span 8">
+        Hop Limit<span>8 bits</span>
+      </div>
+      <div class="address" style="grid-column:span 32">
+        Source address<span>128 bits</span>
+      </div>
+      <div class="address" style="grid-column:span 32">
+        Destination address<span>128 bits</span>
+      </div>
+      <div class="data" style="grid-column:span 32">
+        Data<span>Variable length</span>
+      </div>
+    </div>
+  </div>
+  <p class="meta">
+    Field labels and boundaries preserved from the original IPv6 reference
+  </p>
+</figure>
