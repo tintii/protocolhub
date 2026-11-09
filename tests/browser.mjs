@@ -1,4 +1,4 @@
-import { chromium } from "@playwright/test";
+import { chromium, expect } from "@playwright/test";
 import AxeBuilder from "@axe-core/playwright";
 import assert from "node:assert/strict";
 import fs from "node:fs/promises";
@@ -174,14 +174,26 @@ try {
   await search("TCP", "protocol", "TCP");
   assert.ok(new URL(page.url()).searchParams.get("q") === "TCP");
   const shared = page.url();
+  const searchDialog = page.locator("#search-dialog");
   await page.locator("#search-close").click();
-  await trigger.focus();
-  await trigger.press("Enter");
-  await page.keyboard.press("Escape");
-  assert.ok(
-    await trigger.evaluate((e) => e === document.activeElement),
-    "focus restored",
-  );
+  await expect(searchDialog).toBeHidden();
+  await expect(trigger).toBeFocused();
+  // Slow the browser to exercise lazy opening and queued native dialog events.
+  const focusSession = await context.newCDPSession(page);
+  try {
+    await focusSession.send("Emulation.setCPUThrottlingRate", { rate: 6 });
+    for (let attempt = 0; attempt < 3; attempt++) {
+      await trigger.press("Enter");
+      await expect(searchDialog).toBeVisible();
+      await expect(page.locator("#search-query")).toBeFocused();
+      await page.keyboard.press("Escape");
+      await expect(searchDialog).toBeHidden();
+      await expect(trigger).toBeFocused();
+    }
+  } finally {
+    await focusSession.send("Emulation.setCPUThrottlingRate", { rate: 1 });
+    await focusSession.detach();
+  }
   await page.goto(shared);
   await page.waitForFunction(() =>
     document.querySelector("#search-status").textContent.match(/results? for/),
